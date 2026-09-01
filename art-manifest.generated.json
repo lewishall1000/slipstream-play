@@ -1,0 +1,3632 @@
+{
+  "generatedBy": "scripts/art/generate-production-assets.mjs",
+  "files": [
+    {
+      "path": "art-authored/bosses/bio-heart-high.glb",
+      "bytes": 214904,
+      "sha256": "a9159acb75a0384c6dc80f03dd472eded91c36646052b1581b9a8c0dd4ff3573"
+    },
+    {
+      "path": "art-authored/bosses/bio-heart-low.glb",
+      "bytes": 55872,
+      "sha256": "a23486a8ff6d05f6f0ff61c581aca3e405d29b358dbf1855aca0ba3146810e01"
+    },
+    {
+      "path": "art-authored/bosses/bio-heart-medium.glb",
+      "bytes": 103116,
+      "sha256": "6e58208dcfd02e9a0bb899b902ad974db7daf696a9545b9353569a02047afd6d"
+    },
+    {
+      "path": "art-authored/bosses/guardian-high.glb",
+      "bytes": 250672,
+      "sha256": "dacb4cd0cc477c387288094d40302711350f0800f4c4e06cafdeaae517a428e0"
+    },
+    {
+      "path": "art-authored/bosses/guardian-low.glb",
+      "bytes": 77808,
+      "sha256": "33370fe295d9a88ac7db57677aec8f871b420198eb76151c48c4d29709caa554"
+    },
+    {
+      "path": "art-authored/bosses/guardian-medium.glb",
+      "bytes": 141020,
+      "sha256": "f462381650a709bd155f5df3941556ea0bcfc44fdf1ad4c3ec9654d941f0a187"
+    },
+    {
+      "path": "art-authored/bosses/prism-warden-high.glb",
+      "bytes": 83368,
+      "sha256": "7fd80ebf3dada68b2d95828f53d7669caa0d9f9e881621a8480a00a13c2eae5f"
+    },
+    {
+      "path": "art-authored/bosses/prism-warden-low.glb",
+      "bytes": 50032,
+      "sha256": "32aff822f5c9e33c3f5b02f23aadf4dbb2d53d864c9d7aff1312bdbc57690431"
+    },
+    {
+      "path": "art-authored/bosses/prism-warden-medium.glb",
+      "bytes": 62052,
+      "sha256": "8187d1d17b417eb0a618d0c39a18c16877a854ed66934459e9f6f750d3cd77a1"
+    },
+    {
+      "path": "art-authored/enemies/foundry-sentry.glb",
+      "bytes": 238268,
+      "sha256": "248be4caa5eb688bcab2bc0c6007f0c14a3a9d6470dd8e7de003077099c02cb8"
+    },
+    {
+      "path": "art-authored/gameplay/faithful-space-background-rotational-outpaint-v1.webp",
+      "bytes": 254330,
+      "sha256": "48737df3da3ab5242e1b911005d627c9ae4444c82f82d3da3372260ee0125615"
+    },
+    {
+      "path": "art-authored/gameplay/faithful-space-background-v3.webp",
+      "bytes": 641540,
+      "sha256": "f7d0b5469f61ff952da87427478cc0fb6cf00a20589452e41e138ef1f18a7def"
+    },
+    {
+      "path": "art-authored/gameplay/faithful-space-background-v4.webp",
+      "bytes": 727086,
+      "sha256": "87bb209fdd51ee86c2be255af34d95deba5ae5b40a281c69c82628f6d24d1577"
+    },
+    {
+      "path": "art-authored/hangar/persistent-hangar-high.glb",
+      "bytes": 307396,
+      "sha256": "037a415a8155cddef8f407137d508fdbcdf9f8931ca8b5fabca97031ba8dd081"
+    },
+    {
+      "path": "art-authored/hangar/persistent-hangar-low.glb",
+      "bytes": 86384,
+      "sha256": "57b4e674ee53055bdd547849f8e1521d7efca69eef5b0092da9309004e6eb377"
+    },
+    {
+      "path": "art-authored/hangar/persistent-hangar-medium.glb",
+      "bytes": 155936,
+      "sha256": "86acdfd1dba950c4944481f105a5f95323329c2a75ad893ba87abddb785447fe"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun0-high.glb",
+      "bytes": 141632,
+      "sha256": "75ff4257ab20ced46713c116921e693c653bace0e085288d9be150d49bd1b2e5"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun0-low.glb",
+      "bytes": 77912,
+      "sha256": "069085024e7f5fe90025bd38eb84adb68c526dec7e7f2dec9803fd5851607aa8"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun0-medium.glb",
+      "bytes": 93220,
+      "sha256": "10e311627853af0b42ab1e8475a887972698f839bbaca38d8966f3112578feeb"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun1-high.glb",
+      "bytes": 162196,
+      "sha256": "b94ba3f22256a4839711539f91f80ef588901c8f8ecfe20dce4fd9a0e66d2396"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun1-low.glb",
+      "bytes": 90640,
+      "sha256": "87e46c6089ea9ab9bed3e73491b86f90b778e4f558929f1ce9acff7c1608ed83"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun1-medium.glb",
+      "bytes": 104964,
+      "sha256": "3480eedd4e525bfca3bb0ebebda334946f4e3edba53a0c641b5d2d5ea606a014"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun10-high.glb",
+      "bytes": 185744,
+      "sha256": "21445b5a6cb589f32c94b66413b017138807a04e7ea29351ac1ec2779a150ee2"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun10-low.glb",
+      "bytes": 104764,
+      "sha256": "9e605bb5707601de9862099a31e9d9f2f5fd1e2f0b1d084ef8b5835cdb9db876"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun10-medium.glb",
+      "bytes": 118408,
+      "sha256": "3f0131fed49118cd1b8940f4547e62191dbb47b321175a09792cffdb987e3b11"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun3-high.glb",
+      "bytes": 185740,
+      "sha256": "2b88fdf40eb9275dc7d5658c38e2f46199c0ad67f6bfc02dda400d0ed3e88b04"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun3-low.glb",
+      "bytes": 104760,
+      "sha256": "3adeda56a8f0b3a31490fba9d9da56ef913b2898ae0b8495e156cea9ec273721"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun3-medium.glb",
+      "bytes": 118404,
+      "sha256": "d05424967e2a9d20d3bdd6b4f80ffa0a7692143141c6c86ce2a6b44c4b952ecb"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun4-high.glb",
+      "bytes": 133640,
+      "sha256": "17f71fa5bbbb4163b2f08c719dc3c8215a8d7217a5bcaf69b5b217892402e29b"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun4-low.glb",
+      "bytes": 79460,
+      "sha256": "434156c76221ec7ac18713a9d72c7594fcdd512a3ec46650c8e6f426c7f255b4"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun4-medium.glb",
+      "bytes": 98988,
+      "sha256": "c6c4c12a66b141117376ca88c8d75fb25a7586be828f56a2869865b70758d83e"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun5-high.glb",
+      "bytes": 164204,
+      "sha256": "8598f81e9a83bdae782250a2fee142bd2cdda39ad07a2ea400566535e4050e44"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun5-low.glb",
+      "bytes": 91364,
+      "sha256": "da06f650584e25c69eab2f9b5f1a60ab478fcdebb67a177ab31325ae61ba350e"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun5-medium.glb",
+      "bytes": 106308,
+      "sha256": "70103f0aec5b65d0ef4e9cfb60b6009058c89b12a1b6a23ca9ab06f12e2c01b6"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun6-high.glb",
+      "bytes": 203932,
+      "sha256": "a30b7fa9d013fa3a87ec5e3ed4ac98ece7a1f88db6fcb3faeb42196ffd042373"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun6-low.glb",
+      "bytes": 114884,
+      "sha256": "d6cb5749bdf7032ee97b4b0378dc76f39ceb20e2c7241981dafc49b5e1154b56"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun6-medium.glb",
+      "bytes": 128488,
+      "sha256": "3411fae265aa2d46c39de1a95fa679a71948208ddd28ecfdfaab9d0a01dd2a98"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun7-high.glb",
+      "bytes": 144344,
+      "sha256": "01b2a1697faf579c3d8cc906d75649bea6216411aac0518230528c4478ae3817"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun7-low.glb",
+      "bytes": 79588,
+      "sha256": "bf74f07d1dd09c8721715c97b894b1a8e4bdf3de8e073890a70377b367aec783"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun7-medium.glb",
+      "bytes": 95204,
+      "sha256": "915aabdf1250c09edbf5ff34e2a74114bdcab7b1a52ced257840f465b4d7d5de"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun8-high.glb",
+      "bytes": 121276,
+      "sha256": "d06200374020c1fdb840a560cbce19e18850dd73a9823b0f66252e710085939c"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun8-low.glb",
+      "bytes": 71336,
+      "sha256": "8da272f6c6250dcf1950af3921e5b2ec5d26cb973732eec6ebf60de781480026"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun8-medium.glb",
+      "bytes": 92080,
+      "sha256": "8c305cd8e70b373d5e813871120518f6cb4716318f43921ae163d2722dbe539d"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun9-high.glb",
+      "bytes": 151828,
+      "sha256": "f9b6c073bd619074846a361f08e8550a803e9ad1491abcfaac4707d7bdc2c1f5"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun9-low.glb",
+      "bytes": 90496,
+      "sha256": "fb7c455da1a3b2e920a0bd40967226c2c4bae5b4359cc0b313a6e9871612eb38"
+    },
+    {
+      "path": "art-authored/hazards/bio-panels/bio-panel-fun9-medium.glb",
+      "bytes": 109328,
+      "sha256": "29cef843659d3569b1915caf3da141067140fe6d7a982327d548104ec13f6778"
+    },
+    {
+      "path": "art-authored/hazards/core-aperture-high.glb",
+      "bytes": 444844,
+      "sha256": "384fea87861fe82b3ad66e996738e874a243cfb1e8b4173922f7e4c16ba799d4"
+    },
+    {
+      "path": "art-authored/hazards/core-aperture-low.glb",
+      "bytes": 189348,
+      "sha256": "9a5b7746531406370dffeb4476919c77dd698b0145088ee94ed8013c0c667ddf"
+    },
+    {
+      "path": "art-authored/hazards/core-aperture-medium.glb",
+      "bytes": 257808,
+      "sha256": "59b43e393d57fe4d1bab6e02bbc70abf2df095d0505b1d77395f3e914939dbad"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun0-high.glb",
+      "bytes": 108628,
+      "sha256": "756e401dced9b348502b6203385b3cdc22c94a0b6781cb70f5d5430c86142021"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun0-low.glb",
+      "bytes": 57048,
+      "sha256": "726624359c24a283a2b3efd33001eaed72aaafaacf3685a10a93dbff52f3690b"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun0-medium.glb",
+      "bytes": 73136,
+      "sha256": "3f16e3416ee6e4147abbecc68acd13e50f972e7fb2b7cef0ee12b80eb76d2e56"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun1-high.glb",
+      "bytes": 111184,
+      "sha256": "6ee6c3d98d31c28e05e823c8e699cb948eaa7f6921ffb5d8dd82dd8afaf7afdd"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun1-low.glb",
+      "bytes": 60620,
+      "sha256": "761e792b473b0fa959afce2a39f7de0cc22055b9ac726c9c13a49ff434020d31"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun1-medium.glb",
+      "bytes": 75060,
+      "sha256": "22d81b3d9e1cb3d60512b308c9d09426cb537f5b206ab4042d9ee5316b480099"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun10-high.glb",
+      "bytes": 117184,
+      "sha256": "b04993ea2e475b52cf11609e21a2358f8865b303c5b51f2f6df92b8c2df0a437"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun10-low.glb",
+      "bytes": 66544,
+      "sha256": "8d16cb5e4fd9971a62fd052eaf519f15e5b915967901ef4498b1bcb29818bfac"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun10-medium.glb",
+      "bytes": 77872,
+      "sha256": "dd53154c20b4eef6634263cefa27844ec018737d8b2c5cea7e37da6ad8b4348c"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun11-high.glb",
+      "bytes": 105148,
+      "sha256": "f72631d77ebeaf127fdbf34268cbcd19f7b72db4ad474745095058edf4647a5e"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun11-low.glb",
+      "bytes": 55716,
+      "sha256": "934bff5cee6e932ef8f10567c04774d384cbaadfd0eb8fa3e341449d86497a67"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun11-medium.glb",
+      "bytes": 71492,
+      "sha256": "11e053c20273c41240878a6c8c3b289bcb1ae4d4be825438d96165c0b05ec55d"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun3-high.glb",
+      "bytes": 117180,
+      "sha256": "5e7b200ee9f27da36734742bc9e1a4b7609a1b05996579c9d687d52e25404d84"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun3-low.glb",
+      "bytes": 66540,
+      "sha256": "81aaf8d7475ddf92195e0f77c0b077ddd96b63f82b40b2e745dc995250418065"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun3-medium.glb",
+      "bytes": 77868,
+      "sha256": "0a230eabaebdb1804581f38853753b4273e80020e28e00ee2a0e8f08bfc80eee"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun4-high.glb",
+      "bytes": 102500,
+      "sha256": "06e579495efc4ee35d142e775850d8f9f21a2f735892131679b1f3ffea866fac"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun4-low.glb",
+      "bytes": 55812,
+      "sha256": "ed417cdcd75e3932b720549b55583eaa90d598f2402fdd3b6e4226a57366be04"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun4-medium.glb",
+      "bytes": 74096,
+      "sha256": "ae1b7f3307d1a389db744cabc25f74e664ae3dd247a1dd97c12518a9e1d660a2"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun5-high.glb",
+      "bytes": 115088,
+      "sha256": "6db6b702a144d34adc3dc853b9a13416bca292260cc20deb6f5e8e9e7316a3a5"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun5-low.glb",
+      "bytes": 61976,
+      "sha256": "bb098fd8c605a22e6fae9faa7eb40e403798025089c800d189841ec7fd5b8dc5"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun5-medium.glb",
+      "bytes": 78208,
+      "sha256": "3d3f5b82efba8074da7dba04969447e6709cc9253dffa15f457c56188fbc03a9"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun6-high.glb",
+      "bytes": 116544,
+      "sha256": "08eb14362cf56880b76e7a58d9dbaa8bf5637d1baffa98fe7cff61032803ebda"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun6-low.glb",
+      "bytes": 68404,
+      "sha256": "f580d52ec9cbcf7dd024455c02fe5a6c8548af0baf227fb5e2bf168730c073ed"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun6-medium.glb",
+      "bytes": 80164,
+      "sha256": "c5d23c3743c5af9e61feb726b6caaa8773ad2678ba280aef724540dfc58525c3"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun7-high.glb",
+      "bytes": 113744,
+      "sha256": "4077c99120d38140800f12325786511502a03675d44ad77089f48548f662340f"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun7-low.glb",
+      "bytes": 58424,
+      "sha256": "610041d1c2f86f7d642830ccb67b7eb2521c42db33c9226769c938aa24367f84"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun7-medium.glb",
+      "bytes": 76100,
+      "sha256": "927da513cb30279884ff730af2e66500aca08a3b8f98daffc47ba3de26e2d2d5"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun8-high.glb",
+      "bytes": 102004,
+      "sha256": "ad9b1f6532acadeabaef4ddae5672ee63d8260156caae2867b2f41310fecdfa8"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun8-low.glb",
+      "bytes": 52364,
+      "sha256": "5e540cff8b808eaf21286045da8f4111dd5de972911d9842e20248e4457d4fe1"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun8-medium.glb",
+      "bytes": 73188,
+      "sha256": "7a6bb31c414b0117fe970c7e396f8462f349fee534ec30ec3bacd148d1c88c2f"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun9-high.glb",
+      "bytes": 104792,
+      "sha256": "4df47a575256a494b12db46fe638749d6aade78727c4bdd4d0c033760cf4f500"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun9-low.glb",
+      "bytes": 58392,
+      "sha256": "944d26f7bc12cc9c91054c7ce8802e5b96d449809852c51e58637df847248d0a"
+    },
+    {
+      "path": "art-authored/hazards/foundry-panels/foundry-panel-fun9-medium.glb",
+      "bytes": 74652,
+      "sha256": "e20e5f0449f1dc7af50e81a04fa51ef6e733226648b9aa336e93559338dcca36"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun0-high.glb",
+      "bytes": 141640,
+      "sha256": "0404e757f3565875f88f901bc2658a98c66a958f5fad59317b7949621c54b39c"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun0-low.glb",
+      "bytes": 77920,
+      "sha256": "fdc94b691bee5f8da6e1cdc57374ae8629e7f30ea2cf2fb27b9574c1ce761f05"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun0-medium.glb",
+      "bytes": 93228,
+      "sha256": "1659efedd2309a01c79228e556c55c6d3bc6bdf6a17a987bd453f9cb9300f665"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun1-high.glb",
+      "bytes": 162204,
+      "sha256": "4eff2e1bbfb72269644d17dcfb69b6918549aeb32b284cd233bcec0bcdeff5e2"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun1-low.glb",
+      "bytes": 90652,
+      "sha256": "3b0b7a4f7462804c1d01253a4cddf0fc448192e9e68f7630f29f3dbd12696392"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun1-medium.glb",
+      "bytes": 104976,
+      "sha256": "2e5a31e6658c4aca672532e604d4abef77d6ef530984145a6fe68b89eed284b3"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun10-high.glb",
+      "bytes": 185756,
+      "sha256": "829dbb6c8f8ff9116c0303a75ee03dd139af0c9839abc21f2ef62010c0e01c2a"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun10-low.glb",
+      "bytes": 104776,
+      "sha256": "dda403432ae7f9c7e209c325c387d865880d1add260b731eda5094ad5733673d"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun10-medium.glb",
+      "bytes": 118416,
+      "sha256": "79e1aeef08f10954e1aaa86904cbffb79940eea98f130dc1923f58b159455f09"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun3-high.glb",
+      "bytes": 185752,
+      "sha256": "cb34e4a8c13925e39fd0538c8f03bc2fdb343e1537c86fe0e7e7cbb842cd0dd3"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun3-low.glb",
+      "bytes": 104772,
+      "sha256": "25ebeaa0db584d621c850e8c9da979fe24fa1c900ce5e5b115f95f54a263c961"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun3-medium.glb",
+      "bytes": 118412,
+      "sha256": "983415721eb3c6ea2c581d56626b47f035474adaada013274c43223b81282d83"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun4-high.glb",
+      "bytes": 133652,
+      "sha256": "85b843b6a8dcfa4fa5a191a8ae8988a89a4035a6ffe7d8f9b0a196a50bd31567"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun4-low.glb",
+      "bytes": 79472,
+      "sha256": "931c8d59fca8b172d1b41326d8ce0c1bf5f622fe4900b2060591e7653cf70fef"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun4-medium.glb",
+      "bytes": 99000,
+      "sha256": "05b07097946db7f53f060d6338820b90c855d4ad8170e470485886ea365e183a"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun5-high.glb",
+      "bytes": 164212,
+      "sha256": "a2aa5eda85dab4b992b4c96b052e4d18492f03d834a418588a04d7f4da7c7b60"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun5-low.glb",
+      "bytes": 91372,
+      "sha256": "074675376c59b613c1ec1f6d38c76e4cbd3d8909a34d7fb944bff3b692260347"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun5-medium.glb",
+      "bytes": 106316,
+      "sha256": "7835f88776a154928eea7305ac1338443a77e0502d6b31a410f09124f40149af"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun6-high.glb",
+      "bytes": 203944,
+      "sha256": "3382f47afe009319729accc4c1659a9702c1cbdc6b926b21024131899ab0c5b8"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun6-low.glb",
+      "bytes": 114892,
+      "sha256": "ff49857dbd41b8766722d7b9bc70e7879e193df366643e54e8c010495f92c7bd"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun6-medium.glb",
+      "bytes": 128496,
+      "sha256": "5ad089522be5cad2a34ab0737b898bec36a6b00a1388ac02fba96bec650b8d4b"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun7-high.glb",
+      "bytes": 144356,
+      "sha256": "3b889c1f773cf4f9166fad3b0e1eb28116b560d537fa710bc37e8c1f3689efe1"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun7-low.glb",
+      "bytes": 79600,
+      "sha256": "d0719b5484f7626af1e3cb90e440c63c0d23a6f706b481a1a91254c2fc6b49ad"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun7-medium.glb",
+      "bytes": 95216,
+      "sha256": "5fe32f2d88da0a559d1dd6cb79da17098294cb73b5583ca4a2401e411d7107f8"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun8-high.glb",
+      "bytes": 121284,
+      "sha256": "08d691e87a90641ab4281b2c5123a33d3a9fbc3b24ebf62d0e1cbb13e26dbc0c"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun8-low.glb",
+      "bytes": 71344,
+      "sha256": "c18a00d35e9e8fe81f12a3714dc51afd923f70af9c7c21a4390b905f2859903a"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun8-medium.glb",
+      "bytes": 92088,
+      "sha256": "f11dec73d6d6ad591b3cb4ccbd345e2a4f38b40e6956e3149ed2f122165d3010"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun9-high.glb",
+      "bytes": 151840,
+      "sha256": "3b07ca4b852f5277b8efa28ca9f2f7ef9d5da1c0d387bc0f3aa091127f826e85"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun9-low.glb",
+      "bytes": 90504,
+      "sha256": "7711cd9e4d2bcd9b88a5ce1197b9ef5e17a659aac379d2f8e5c5215ae28c17d2"
+    },
+    {
+      "path": "art-authored/hazards/prism-panels/prism-panel-fun9-medium.glb",
+      "bytes": 109340,
+      "sha256": "21c63caf515713aee16c04435f56b5d8b90dd4ee7cfb4ecb4cac043f4531736a"
+    },
+    {
+      "path": "art-authored/orbital-ecosystem/holo-turntable-high.glb",
+      "bytes": 418932,
+      "sha256": "f4a64a3f5fa4e0691f95d03a990a149e2b500c62e0f1416a0a5eadf742f45f73"
+    },
+    {
+      "path": "art-authored/orbital-ecosystem/holo-turntable-low.glb",
+      "bytes": 119784,
+      "sha256": "378ad103c8e5ea0fbd801c3d5681fb6a1bb7e0a861568792dbc1a114e79ac498"
+    },
+    {
+      "path": "art-authored/orbital-ecosystem/holo-turntable-medium.glb",
+      "bytes": 233608,
+      "sha256": "5fa6d0d316a5ab40b1d4789de55e9801fc9a84db9daa57ec0e84e43e5b7c735b"
+    },
+    {
+      "path": "art-authored/orbital-ecosystem/service-drone-high.glb",
+      "bytes": 146104,
+      "sha256": "fa594f2cbb736645e269499ebe15fa919cfe5258b067254410342068e83cc0fd"
+    },
+    {
+      "path": "art-authored/orbital-ecosystem/service-drone-low.glb",
+      "bytes": 68628,
+      "sha256": "ebd4c82b21fdde8b5925c554e2000f0082c76e69283edcf9465fd7c7a199c7e6"
+    },
+    {
+      "path": "art-authored/orbital-ecosystem/service-drone-medium.glb",
+      "bytes": 107524,
+      "sha256": "7b082834d4a6552be2970b163ea9deb859b697d2b48aa4bc9bb2bcfc3e29fa71"
+    },
+    {
+      "path": "art-authored/pickups/pickup-bomb.glb",
+      "bytes": 59668,
+      "sha256": "157dd5a7f17a0fc8a956ed8b0201daa67d56230e91f5f5044c6552a9e2843439"
+    },
+    {
+      "path": "art-authored/pickups/pickup-coolant.glb",
+      "bytes": 32052,
+      "sha256": "f17f6613eb04ed76d268b11eb991dc823a4dd74e44a64d13e95f86290bc81fe3"
+    },
+    {
+      "path": "art-authored/pickups/pickup-life.glb",
+      "bytes": 55272,
+      "sha256": "bbfc2032a507da193a8db54a2f840ede0472fd1772ebac2a5aae590675aaa88a"
+    },
+    {
+      "path": "art-authored/pickups/pickup-shield.glb",
+      "bytes": 33896,
+      "sha256": "6c1ca1838c75f80f20e7bd352fa4c25a458bc5adb3b66ba7fb08552bd2c784fb"
+    },
+    {
+      "path": "art-authored/rifts/dimensional-rift.glb",
+      "bytes": 160080,
+      "sha256": "dc403ea90040e9431437d17e8b6bbd79559fa3da980115d375dc394dd17b7a34"
+    },
+    {
+      "path": "art-authored/rifts/dimensional-transit.glb",
+      "bytes": 95660,
+      "sha256": "a6d07f05b4fb23d01e03db3586d71a208e3ac724a1ae16cbde61afd5ed98dc2e"
+    },
+    {
+      "path": "art-authored/ship-fleet/bulwark-high.glb",
+      "bytes": 585784,
+      "sha256": "989079fcc80db6506925edcbf92fac7be904d5f72fd81d3d617fb8a85376aa17"
+    },
+    {
+      "path": "art-authored/ship-fleet/bulwark-low.glb",
+      "bytes": 327636,
+      "sha256": "a4023cabe298bdabe1d995435c3eda3622990da49143bb1639d51f8e2b2d4c50"
+    },
+    {
+      "path": "art-authored/ship-fleet/bulwark-medium.glb",
+      "bytes": 454336,
+      "sha256": "e78e223e59af39d95325cb4660ec2c311f55c423848b6dc0b08b25b7ae33ee7d"
+    },
+    {
+      "path": "art-authored/ship-fleet/eclipse-high.glb",
+      "bytes": 475684,
+      "sha256": "39e2886e3b9b179a53be7374e2148170a4177202afe2c0b6c5c13d840304068b"
+    },
+    {
+      "path": "art-authored/ship-fleet/eclipse-low.glb",
+      "bytes": 261832,
+      "sha256": "1e1e0a0a8204b6d37999e0234b6dd1159b862f53fbe95e331fc1d1b0cd354882"
+    },
+    {
+      "path": "art-authored/ship-fleet/eclipse-medium.glb",
+      "bytes": 351704,
+      "sha256": "c5158a6ffd195361b8312383c6be897066d7be7a8b76a58b438dd29d3438436e"
+    },
+    {
+      "path": "art-authored/ship-fleet/ion-ghost-high.glb",
+      "bytes": 598644,
+      "sha256": "10422dacc80c9ec6d027b389cb4d69f8d8031e319011fc2388fdb7b9b57397f3"
+    },
+    {
+      "path": "art-authored/ship-fleet/ion-ghost-low.glb",
+      "bytes": 315876,
+      "sha256": "572841b9a73122e805cb8761d03998e8cd58fb19c453ce0227ccad0002025dd9"
+    },
+    {
+      "path": "art-authored/ship-fleet/ion-ghost-medium.glb",
+      "bytes": 439424,
+      "sha256": "827ee101ad813629cc857d53029cce374eacb12faadee1dd4301a13a692d093f"
+    },
+    {
+      "path": "art-authored/ship-fleet/panel-surface-v2.png",
+      "bytes": 304189,
+      "sha256": "6781f25a933439dd0d427245faa261dbd45e6951ae430ccd2d95012f2a501501"
+    },
+    {
+      "path": "art-authored/ship-fleet/roughness-bulwark-v3.png",
+      "bytes": 141866,
+      "sha256": "1d4863e1168b87d14575a589429393fc8573f982281127a14d837a5c81fe4dac"
+    },
+    {
+      "path": "art-authored/ship-fleet/roughness-eclipse-v3.png",
+      "bytes": 145155,
+      "sha256": "a0a2dc3fcdd95ef9b3691cf1db9e0af56985027cd54d52bd8658ff253d3db8a3"
+    },
+    {
+      "path": "art-authored/ship-fleet/roughness-ion-ghost-v3.png",
+      "bytes": 142139,
+      "sha256": "09a02dedf344b894c70ade30a3bebbda8e3ab8a19ec51f3389728fd2f2e913e3"
+    },
+    {
+      "path": "art-authored/ship-fleet/roughness-solar-flare-v3.png",
+      "bytes": 143298,
+      "sha256": "5a0d46817cd33f70856073b2e8038cec6eec4641f04a830d6f6fc74839d7f9be"
+    },
+    {
+      "path": "art-authored/ship-fleet/roughness-vector-v3.png",
+      "bytes": 144177,
+      "sha256": "97ddf74efde060e0dbed371454df867383c2cea911ae354be2bf50e9d47d8213"
+    },
+    {
+      "path": "art-authored/ship-fleet/roughness-venom-v3.png",
+      "bytes": 141782,
+      "sha256": "cf68fe87d17cc6e2ba62d1c1df3844e9005bc634c30a5851664a51f985772705"
+    },
+    {
+      "path": "art-authored/ship-fleet/roughness-wraith-v3.png",
+      "bytes": 144567,
+      "sha256": "d7d1093aa751e7bcfd7d6e469d8d27fc0650a46bf435a377242c2631e8762b0c"
+    },
+    {
+      "path": "art-authored/ship-fleet/solar-flare-high.glb",
+      "bytes": 683208,
+      "sha256": "bec41f6bc1c9544ed72a8d923ac7c61e3ee8cf73b671fbeb91be4c758faaf43f"
+    },
+    {
+      "path": "art-authored/ship-fleet/solar-flare-low.glb",
+      "bytes": 351124,
+      "sha256": "1438c93cb43c714f9b3f44e08b7d02ec5332170fdaeca7fbfd7dbc059bf3273c"
+    },
+    {
+      "path": "art-authored/ship-fleet/solar-flare-medium.glb",
+      "bytes": 502136,
+      "sha256": "218f9249cfa6fd7c1b163c94c48ad45bf8c4d4a87390c01042b36c37f703cf63"
+    },
+    {
+      "path": "art-authored/ship-fleet/surface-bulwark-v3.png",
+      "bytes": 4740,
+      "sha256": "e25626ab13816484ad7a60ad306558717dc69eacde4ca51f3bd776826b9eaa02"
+    },
+    {
+      "path": "art-authored/ship-fleet/surface-eclipse-v3.png",
+      "bytes": 23469,
+      "sha256": "2cfff76cc75b9f7a31b4aae8945e133b6067323750ca4079b13b7bc28c7fe2d3"
+    },
+    {
+      "path": "art-authored/ship-fleet/surface-ion-ghost-v3.png",
+      "bytes": 2201,
+      "sha256": "348d1baf5463d0d9c9dec2edc70e5043a456c2873ca662cf5f86dbb8986a7e3f"
+    },
+    {
+      "path": "art-authored/ship-fleet/surface-solar-flare-v3.png",
+      "bytes": 22089,
+      "sha256": "dce871d108f06f519501e34c4c8564d8f137be66cd203b85769cb73b4b972316"
+    },
+    {
+      "path": "art-authored/ship-fleet/surface-vector-v3.png",
+      "bytes": 7700,
+      "sha256": "b1bc1d491fff0eb7a3c3fb88bacd0e159146bf824f96360782d2a1a053d5f657"
+    },
+    {
+      "path": "art-authored/ship-fleet/surface-venom-v3.png",
+      "bytes": 4174,
+      "sha256": "16a336a608852b5026c906e054701799faa55d4e108d2668556868bef53d9468"
+    },
+    {
+      "path": "art-authored/ship-fleet/surface-wraith-v3.png",
+      "bytes": 10952,
+      "sha256": "25bfe95a1027ea2cd2673749e17217f49182b215ab8418b7d318476a483e8939"
+    },
+    {
+      "path": "art-authored/ship-fleet/venom-high.glb",
+      "bytes": 532848,
+      "sha256": "ae37d32c50e294ede18c821fadbda249647fadf1ca27723fe9419bfa3fa41742"
+    },
+    {
+      "path": "art-authored/ship-fleet/venom-low.glb",
+      "bytes": 282176,
+      "sha256": "251fbe203d62a6a6ecd8dcf414022087c231c270eca94cf2f7600c391987aafa"
+    },
+    {
+      "path": "art-authored/ship-fleet/venom-medium.glb",
+      "bytes": 386300,
+      "sha256": "dd5e451eb151cd9f57d1b9b5a6562e11037e1237c27e5836723abd5f140746e7"
+    },
+    {
+      "path": "art-authored/ship-fleet/wraith-high.glb",
+      "bytes": 400888,
+      "sha256": "a9e8e2b23d353948008805744bf58fc6845732c36b0258e3c453107b411e02e1"
+    },
+    {
+      "path": "art-authored/ship-fleet/wraith-low.glb",
+      "bytes": 225156,
+      "sha256": "0b6fc6d0578662038f0ee3664b7f2bb836a5f74bc3252c9e11c891f8620f7b3b"
+    },
+    {
+      "path": "art-authored/ship-fleet/wraith-medium.glb",
+      "bytes": 299160,
+      "sha256": "8ab275ecaf41fe8e183d9d95362fd4a79921af6e174eed650100a22bd77e639b"
+    },
+    {
+      "path": "art-authored/ship-projections/bulwark-arctic-siege.webp",
+      "bytes": 262342,
+      "sha256": "ac045614067851c3e3ff7b70b4ad492659a6b6166e9a9454b4c490aebd79933d"
+    },
+    {
+      "path": "art-authored/ship-projections/bulwark-citadel-gold.webp",
+      "bytes": 263356,
+      "sha256": "8ad6a943f18e70d418ca1fc6fd60fbe2486b3a618792fc4ab2ff91b480f25b99"
+    },
+    {
+      "path": "art-authored/ship-projections/bulwark-ember-bastion.webp",
+      "bytes": 257412,
+      "sha256": "176f872e23ac3d0f5f4bfc36124b172b5510ed81480da358ea7ac0675219a629"
+    },
+    {
+      "path": "art-authored/ship-projections/bulwark-ironclad.webp",
+      "bytes": 265430,
+      "sha256": "a9cf9b6f79ebe2aeceafb951f4cca1186bd7d092f88152c14f0350c30b6652ee"
+    },
+    {
+      "path": "art-authored/ship-projections/bulwark-royal-guard.webp",
+      "bytes": 261774,
+      "sha256": "3b4d107db069dec67608845548b6cfaddea5f6ff022d88a2c1ea3b5d1c0e1faa"
+    },
+    {
+      "path": "art-authored/ship-projections/eclipse-blood-moon.webp",
+      "bytes": 262492,
+      "sha256": "06cdd97dd7970af59cb333d0f4a3534e84aaa9573dab6ae115b95dcd11c7109b"
+    },
+    {
+      "path": "art-authored/ship-projections/eclipse-corona-white.webp",
+      "bytes": 267792,
+      "sha256": "1bc9e8f746b9a8ecf4ec78983e3347dd96d23b142f894c57df6cc1a4a0106a47"
+    },
+    {
+      "path": "art-authored/ship-projections/eclipse-deep-space.webp",
+      "bytes": 260388,
+      "sha256": "b1a987c9fe26243f7c2b1c8ab1d114b5150819e4ac64e1e0aed0987c4d317c1c"
+    },
+    {
+      "path": "art-authored/ship-projections/eclipse-totality.webp",
+      "bytes": 266460,
+      "sha256": "de965071b7a27f9aa056c9d3c7871a622170e3236dc29104a7af9be799a85372"
+    },
+    {
+      "path": "art-authored/ship-projections/eclipse-ultraviolet.webp",
+      "bytes": 266934,
+      "sha256": "f22a479f20bb07c6b8f9e85aa0885da644218bbd1f00f8c7b88d5cf1abe811f7"
+    },
+    {
+      "path": "art-authored/ship-projections/ion-ghost-aurora.webp",
+      "bytes": 94370,
+      "sha256": "fe520409f7909b8863c890bfb3a33e10803355a09dfb33fd8d99a297b33b4278"
+    },
+    {
+      "path": "art-authored/ship-projections/ion-ghost-black-ice.webp",
+      "bytes": 92560,
+      "sha256": "1c3c921a7105ec98b78247f187c69b5a6e2d3b77a94786567e084246a10e9dc7"
+    },
+    {
+      "path": "art-authored/ship-projections/ion-ghost-phase-white.webp",
+      "bytes": 92530,
+      "sha256": "76983619ce32e5bb86c7969fe1d4b118835c598f41a71fd3ca0d7bd316dcd1cd"
+    },
+    {
+      "path": "art-authored/ship-projections/ion-ghost-spectral.webp",
+      "bytes": 91728,
+      "sha256": "0219db710bf0b0e99c26d357067f3aa79d170e1a61b6d675fa2e01ec6d8ec3fd"
+    },
+    {
+      "path": "art-authored/ship-projections/ion-ghost-zero-kelvin.webp",
+      "bytes": 91244,
+      "sha256": "18182502477125845e50ae7815158f8f66cd9b2a5cf5ae6367cc9aa70d4aae5e"
+    },
+    {
+      "path": "art-authored/ship-projections/solar-flare-blue-giant.webp",
+      "bytes": 210496,
+      "sha256": "e6da8ab2b5bd8d600e602b57d6da2b0ff49cdd25b2c0f22d0e955535c6982a07"
+    },
+    {
+      "path": "art-authored/ship-projections/solar-flare-redline.webp",
+      "bytes": 202568,
+      "sha256": "3e25591d322cf4dac0961e905a9da4073066ed9f41ec7962f995308a8299b080"
+    },
+    {
+      "path": "art-authored/ship-projections/solar-flare-solar-crown.webp",
+      "bytes": 206724,
+      "sha256": "30ee37b3e1e79d4141d6590692211e267866e0fac1b08011ad875ef3893f6073"
+    },
+    {
+      "path": "art-authored/ship-projections/solar-flare-sunspot.webp",
+      "bytes": 211812,
+      "sha256": "4ba008bdb40a343a44282aca4fe24e6c9e2ee44245443e0f610a87de3ae25653"
+    },
+    {
+      "path": "art-authored/ship-projections/solar-flare-white-dwarf.webp",
+      "bytes": 211352,
+      "sha256": "77a1775a6fcd4faf7bdf4be90fde2dfe9621077bc07d7f53f52d34f650e7cef6"
+    },
+    {
+      "path": "art-authored/ship-projections/vector-crimson-vector.webp",
+      "bytes": 136720,
+      "sha256": "1c0ea701ab314b6685ea9bc17baf27ca44c62cf08910d0c397425c89f8aa779e"
+    },
+    {
+      "path": "art-authored/ship-projections/vector-neon-apex.webp",
+      "bytes": 135634,
+      "sha256": "510a9da8ae14a2b928a2a868d958818f2b6d809ca373c427e17d175e7e17d269"
+    },
+    {
+      "path": "art-authored/ship-projections/vector-polar-circuit.webp",
+      "bytes": 135610,
+      "sha256": "d23c1c2f20382e855bf6a2b03138bfee5f113fbf378d3705d1cbb8b5e263b847"
+    },
+    {
+      "path": "art-authored/ship-projections/vector-slipstream.webp",
+      "bytes": 136574,
+      "sha256": "9bfa1ac14dd93b295255f90ebf29537abcb91accbf68264c3bc2a66c45eab621"
+    },
+    {
+      "path": "art-authored/ship-projections/vector-void-runner.webp",
+      "bytes": 138132,
+      "sha256": "739376283f4eb2ecc673c53f1b792269878bdb95613a065be8f834ac2052de68"
+    },
+    {
+      "path": "art-authored/ship-projections/venom-albino-viper.webp",
+      "bytes": 206430,
+      "sha256": "1c6f03db2f24e50c6065464bc9b5603a4177ddb8daead41e4b0a860d32959ddd"
+    },
+    {
+      "path": "art-authored/ship-projections/venom-biolume.webp",
+      "bytes": 212028,
+      "sha256": "11d1e75d1569481fabc60fe9a6d71d438305fc4dd99538a81344fe7be79fca43"
+    },
+    {
+      "path": "art-authored/ship-projections/venom-crimson-coil.webp",
+      "bytes": 202454,
+      "sha256": "5540bf959c3628431196631de82f5c23fee89c6a7ab74080a98de16ad6c0db6c"
+    },
+    {
+      "path": "art-authored/ship-projections/venom-obsidian-fang.webp",
+      "bytes": 207020,
+      "sha256": "e603c7f6e8ab5a9fcd212ae4adc77a45d8904435bebf14fb6edbfab4c3c71875"
+    },
+    {
+      "path": "art-authored/ship-projections/venom-toxic.webp",
+      "bytes": 210636,
+      "sha256": "f219e3f3e43a5cc728bbeee0911fb9642082f7f53ba700337f52bed98e4c0dd1"
+    },
+    {
+      "path": "art-authored/ship-projections/wraith-azure-ghost.webp",
+      "bytes": 123146,
+      "sha256": "088c19121280372822827d6885756203295c59fc1583921ec706a3964961ea02"
+    },
+    {
+      "path": "art-authored/ship-projections/wraith-black-phantom.webp",
+      "bytes": 118244,
+      "sha256": "0e437309762baf8449763b2382644dc109932869fb7353f4600138e143cca53d"
+    },
+    {
+      "path": "art-authored/ship-projections/wraith-crimson-shade.webp",
+      "bytes": 117640,
+      "sha256": "cb5a1d73d543895feca70ebd1d18b7bad33c306e465cd4049c2c341f1d105408"
+    },
+    {
+      "path": "art-authored/ship-projections/wraith-pale-reaper.webp",
+      "bytes": 117862,
+      "sha256": "04693066fcff2a49752c27fa3bbfe203b58b9634918aec172f7057434a882ecb"
+    },
+    {
+      "path": "art-authored/ship-projections/wraith-spectral-violet.webp",
+      "bytes": 119316,
+      "sha256": "ae7e2347d160a526e7f3e59a08ce49bb5d43b7a48fb4209a90865cd375adc005"
+    },
+    {
+      "path": "art-authored/shipyard/hero-bulwark-arctic-siege.webp",
+      "bytes": 122078,
+      "sha256": "68072e9be89dc39914e9313ecb22f0f2919de19324033d5302d8c195b2a78797"
+    },
+    {
+      "path": "art-authored/shipyard/hero-bulwark-citadel-gold.webp",
+      "bytes": 150194,
+      "sha256": "c8988b816d4b0d0cbd823422c3a7a8470d5e22747155cd7a8d2a36b677c28f37"
+    },
+    {
+      "path": "art-authored/shipyard/hero-bulwark-ember-bastion.webp",
+      "bytes": 129972,
+      "sha256": "135b326466da16915d050854d0b8c58b343723f900a3324fc5bb9bad90abdccc"
+    },
+    {
+      "path": "art-authored/shipyard/hero-bulwark-ironclad.webp",
+      "bytes": 134904,
+      "sha256": "63d040bf0c6a47e3457a54b6920c8a848267df1be59f70d55715ba52f848d047"
+    },
+    {
+      "path": "art-authored/shipyard/hero-bulwark-royal-guard.webp",
+      "bytes": 131314,
+      "sha256": "9c3eaa563434a4123bde096ef33ae78edb7b3c1a07b847564c0fa6f0fc8897ed"
+    },
+    {
+      "path": "art-authored/shipyard/hero-bulwark.webp",
+      "bytes": 150194,
+      "sha256": "c8988b816d4b0d0cbd823422c3a7a8470d5e22747155cd7a8d2a36b677c28f37"
+    },
+    {
+      "path": "art-authored/shipyard/hero-eclipse-blood-moon.webp",
+      "bytes": 78668,
+      "sha256": "d22877f6427ef562bff8f59d11ac9b077787c779bf4ad4439dbc7168bdcd9b81"
+    },
+    {
+      "path": "art-authored/shipyard/hero-eclipse-corona-white.webp",
+      "bytes": 77876,
+      "sha256": "5f41de0000e364b79bce4bb7b05f1fd74e7d399586fd4eda7250635775f3b022"
+    },
+    {
+      "path": "art-authored/shipyard/hero-eclipse-deep-space.webp",
+      "bytes": 76720,
+      "sha256": "30919b2034edc946f320b4d0dec7847b41a7d6a9f064609b5c3fa92f8e5c8f5d"
+    },
+    {
+      "path": "art-authored/shipyard/hero-eclipse-totality.webp",
+      "bytes": 77698,
+      "sha256": "9c69b04f62c984bc3e0a4911354eed2926ccdb0da8b159ef5b285e6f052f554a"
+    },
+    {
+      "path": "art-authored/shipyard/hero-eclipse-ultraviolet.webp",
+      "bytes": 81426,
+      "sha256": "e85be34a9be29b9a508bbe0834188f4838507f18936ad26d6fb8ae7edd1110c7"
+    },
+    {
+      "path": "art-authored/shipyard/hero-eclipse.webp",
+      "bytes": 77698,
+      "sha256": "9c69b04f62c984bc3e0a4911354eed2926ccdb0da8b159ef5b285e6f052f554a"
+    },
+    {
+      "path": "art-authored/shipyard/hero-ion-ghost-aurora.webp",
+      "bytes": 81680,
+      "sha256": "c06a53703b2c2a8eec838b656fe37dad9d68ec2652bb813980c1b1b2d1e6b7e8"
+    },
+    {
+      "path": "art-authored/shipyard/hero-ion-ghost-black-ice.webp",
+      "bytes": 84986,
+      "sha256": "1c340ca34361f5a336d2b8e3a6e109079a707ec22b208f079224b0a46dcef190"
+    },
+    {
+      "path": "art-authored/shipyard/hero-ion-ghost-phase-white.webp",
+      "bytes": 81642,
+      "sha256": "17cf0c334d7f2edee7803c3766daec92beab659e065c5f2b5d5ab193d4dc6456"
+    },
+    {
+      "path": "art-authored/shipyard/hero-ion-ghost-spectral.webp",
+      "bytes": 81580,
+      "sha256": "0c1707241080e41db47a18be2e48b3e2dae84a551ed059f2fdd0dcff765bb187"
+    },
+    {
+      "path": "art-authored/shipyard/hero-ion-ghost-zero-kelvin.webp",
+      "bytes": 81896,
+      "sha256": "501b5dacdf54d17afd62a75a12236bd3cf4397f2fb5cceeb98067930e28bed5d"
+    },
+    {
+      "path": "art-authored/shipyard/hero-ion-ghost.webp",
+      "bytes": 81642,
+      "sha256": "17cf0c334d7f2edee7803c3766daec92beab659e065c5f2b5d5ab193d4dc6456"
+    },
+    {
+      "path": "art-authored/shipyard/hero-solar-flare-blue-giant.webp",
+      "bytes": 95478,
+      "sha256": "0d23b62b4b261041136097e646ebe0d5cdb7129aad61394d85b4d4d5a3bba93c"
+    },
+    {
+      "path": "art-authored/shipyard/hero-solar-flare-redline.webp",
+      "bytes": 101272,
+      "sha256": "9ee8800c39ef6265f62b7d2fb96d4eddc897b71c81d800014396c201c0eafe4a"
+    },
+    {
+      "path": "art-authored/shipyard/hero-solar-flare-solar-crown.webp",
+      "bytes": 113826,
+      "sha256": "0c0674543979c4086654a06fed061d6a7691c519ba71d0e4fd440534f814db3d"
+    },
+    {
+      "path": "art-authored/shipyard/hero-solar-flare-sunspot.webp",
+      "bytes": 90312,
+      "sha256": "b2060e18de142cc9ed9748f29b68962cc34b81c4e1e7f0ddb75ecd85375b75be"
+    },
+    {
+      "path": "art-authored/shipyard/hero-solar-flare-white-dwarf.webp",
+      "bytes": 91684,
+      "sha256": "d662017a0c1f7155b142c25f9e09f99a61404ae3cbb1792465edf802c83b377c"
+    },
+    {
+      "path": "art-authored/shipyard/hero-solar-flare.webp",
+      "bytes": 113826,
+      "sha256": "0c0674543979c4086654a06fed061d6a7691c519ba71d0e4fd440534f814db3d"
+    },
+    {
+      "path": "art-authored/shipyard/hero-vector-crimson-vector.webp",
+      "bytes": 81022,
+      "sha256": "232894ddf49535ec9eba0fb59bf1518e69774a5d8b47026b4e4bf6cd66bf2f0b"
+    },
+    {
+      "path": "art-authored/shipyard/hero-vector-neon-apex.webp",
+      "bytes": 76070,
+      "sha256": "8cad52d232d08966222e936fab307150dd4badd43efe10506330cadece1ed67e"
+    },
+    {
+      "path": "art-authored/shipyard/hero-vector-polar-circuit.webp",
+      "bytes": 80290,
+      "sha256": "7dbfc0789242f7053036c98380f71b8ff51db2cc1a1f27602f382c0f998ae776"
+    },
+    {
+      "path": "art-authored/shipyard/hero-vector-slipstream.webp",
+      "bytes": 79782,
+      "sha256": "a89fe8aac755f888cbc134b5480734bb0650d88f47953645a3c8bb2eecf91afd"
+    },
+    {
+      "path": "art-authored/shipyard/hero-vector-void-runner.webp",
+      "bytes": 69094,
+      "sha256": "1d979df3887686e535f74e1ee8e5d70d079049195e5a32302d2d91e93ada8994"
+    },
+    {
+      "path": "art-authored/shipyard/hero-vector.webp",
+      "bytes": 79782,
+      "sha256": "a89fe8aac755f888cbc134b5480734bb0650d88f47953645a3c8bb2eecf91afd"
+    },
+    {
+      "path": "art-authored/shipyard/hero-venom-albino-viper.webp",
+      "bytes": 67250,
+      "sha256": "5a207cb139af4f891a363f551b28503036cd90d767326c4e31a124bd24f15488"
+    },
+    {
+      "path": "art-authored/shipyard/hero-venom-biolume.webp",
+      "bytes": 74596,
+      "sha256": "11e63ce456024260d12c75452134037768fecd6670bff7422c71d0aeb2f582aa"
+    },
+    {
+      "path": "art-authored/shipyard/hero-venom-crimson-coil.webp",
+      "bytes": 79632,
+      "sha256": "e0973b808336aa04d4af932af96c6ed278b2c6cbe87dfedbf812d295ee4f707b"
+    },
+    {
+      "path": "art-authored/shipyard/hero-venom-obsidian-fang.webp",
+      "bytes": 69372,
+      "sha256": "b18e1600d610285cd9da04cbc18940916d8de5f12ebacfb0490a4e40301f24d5"
+    },
+    {
+      "path": "art-authored/shipyard/hero-venom-toxic.webp",
+      "bytes": 72370,
+      "sha256": "d04ccac78e33530f5956b747f9b436e01e5f2886ebd64d87d680518bde3a4bc1"
+    },
+    {
+      "path": "art-authored/shipyard/hero-venom.webp",
+      "bytes": 72370,
+      "sha256": "d04ccac78e33530f5956b747f9b436e01e5f2886ebd64d87d680518bde3a4bc1"
+    },
+    {
+      "path": "art-authored/shipyard/hero-wraith-azure-ghost.webp",
+      "bytes": 56504,
+      "sha256": "89ef7236ece9de0d6d932846255d68f9fcbce6d6369e61e37abb28108ff6b311"
+    },
+    {
+      "path": "art-authored/shipyard/hero-wraith-black-phantom.webp",
+      "bytes": 55330,
+      "sha256": "de19802e7ecd85fe2a0e8025d0ea94ec846972589da68231cd87c50c54f961b9"
+    },
+    {
+      "path": "art-authored/shipyard/hero-wraith-crimson-shade.webp",
+      "bytes": 57358,
+      "sha256": "7e4788a0a533a6fac7c5689950b28486a4ec94321d89d5e8e400ac96d21761b2"
+    },
+    {
+      "path": "art-authored/shipyard/hero-wraith-pale-reaper.webp",
+      "bytes": 53938,
+      "sha256": "3c3ac1441c2d86854ef58e45e650f927c954c5ad723cdbf89fad07c7eb5e3e2a"
+    },
+    {
+      "path": "art-authored/shipyard/hero-wraith-spectral-violet.webp",
+      "bytes": 55118,
+      "sha256": "d37a85b8590d2eb7f0801d1c11bb380a764e239f5b124449e97c2e50fea0ffeb"
+    },
+    {
+      "path": "art-authored/shipyard/hero-wraith.webp",
+      "bytes": 55118,
+      "sha256": "d37a85b8590d2eb7f0801d1c11bb380a764e239f5b124449e97c2e50fea0ffeb"
+    },
+    {
+      "path": "art-authored/shipyard/hologram-bulwark.webp",
+      "bytes": 25442,
+      "sha256": "d2e3d3800036ee72ae94bd7d17c9d99473b9e7ab7e768ebb240fbe91b79ff940"
+    },
+    {
+      "path": "art-authored/shipyard/hologram-eclipse.webp",
+      "bytes": 22254,
+      "sha256": "b55dca2162c87e65df6db20172420c6248b0583642e6c6c3e3374cf8e67f2c05"
+    },
+    {
+      "path": "art-authored/shipyard/hologram-ion-ghost.webp",
+      "bytes": 9112,
+      "sha256": "314a7f5f5dcab061a995602b244da9982e134cd9563a197c6b00f2d243c09a1e"
+    },
+    {
+      "path": "art-authored/shipyard/hologram-solar-flare.webp",
+      "bytes": 20098,
+      "sha256": "a82c61324078d3bd666b817af522c1a29aff60c8104e2c4b72822bd04caf81e9"
+    },
+    {
+      "path": "art-authored/shipyard/hologram-vector.webp",
+      "bytes": 564,
+      "sha256": "5068d5710208870317d3d7029835f66680c2670b898aa106eff98154b05321ab"
+    },
+    {
+      "path": "art-authored/shipyard/hologram-venom.webp",
+      "bytes": 13676,
+      "sha256": "177fd8dee585155726aadf84a97746494dc5ba04eeeec3092f0ac960439b4907"
+    },
+    {
+      "path": "art-authored/shipyard/hologram-wraith.webp",
+      "bytes": 12870,
+      "sha256": "30661b7b6d9abc0ed1987d829a6553272db069eb02f30f174f79909bfc3cccbe"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-bulwark-t1.webp",
+      "bytes": 7538,
+      "sha256": "fa0abd2f020560f244f369ef611bd902d857821298ceadca059caf11b9ec6dcf"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-bulwark-t2.webp",
+      "bytes": 9126,
+      "sha256": "95c57450c7bc50f089027c489130035793bb9f7b54245a78760a4fbc3e6ad6b6"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-bulwark-t3.webp",
+      "bytes": 10644,
+      "sha256": "c5562f59cc86c5d645af5021edbff55aaad024d35f23e47224ad3b709b468179"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-eclipse-t1.webp",
+      "bytes": 8290,
+      "sha256": "937c29f4e7e358e4fa5bff9bc6b208828ae6b3c9c8577bd2b32604d73f3856a7"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-eclipse-t2.webp",
+      "bytes": 10292,
+      "sha256": "44c74dc53715a9f240c85ef904d224df6b82411916b0f634a26cbd008df87d59"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-eclipse-t3.webp",
+      "bytes": 12426,
+      "sha256": "d6b433e886b1ecdb12c4fab9ea511bd031d29e4a957202d272facd34d9af3840"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-ion-ghost-t1.webp",
+      "bytes": 8114,
+      "sha256": "882ffa181efa7408df45f486be7b98fbe5dcd42dbb7b441c1fbac8fd8161acb5"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-ion-ghost-t2.webp",
+      "bytes": 9794,
+      "sha256": "8434e16a89bef798753aaa8ee63fbb0fb48ff6473533a5decd69855b1b515947"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-ion-ghost-t3.webp",
+      "bytes": 12030,
+      "sha256": "f010ba61df8236f120e063eb9b6174678731870cf0e4a1d9497b692efcbf508f"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-solar-flare-t1.webp",
+      "bytes": 7070,
+      "sha256": "d7b8e727aed270647867033b8971ed047e37f47e80644838102566dfe859c0ea"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-solar-flare-t2.webp",
+      "bytes": 8480,
+      "sha256": "a1d7163a00cbff00a9f631f8408bd79cf6d5e81165799127298a7af4e59a4559"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-solar-flare-t3.webp",
+      "bytes": 11106,
+      "sha256": "91933b3d236d1f06b1d673e0d8f4fdfcffd9a6a248d783d68c21d0bba05e8f2c"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-vector-t1.webp",
+      "bytes": 6796,
+      "sha256": "4fcddee238298ab9b895456b8f25d3871617b2041123ed6d9456908388b891b8"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-vector-t2.webp",
+      "bytes": 7960,
+      "sha256": "84c14490b1e90033a59fb85ce617a49cc092a53b00fdf68dd429fe14f506ebed"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-vector-t3.webp",
+      "bytes": 9988,
+      "sha256": "bc03b8cc62f918e7b1351c8b296df335ca2448fd064ba84cf0197a5555907165"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-venom-t1.webp",
+      "bytes": 6856,
+      "sha256": "5f3ce9dd0c09172c85822b3652465753006b2901c4b6b338d2555ffb20e6e860"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-venom-t2.webp",
+      "bytes": 8548,
+      "sha256": "151202a97db6beb6bbcfeb737aec3fee217c0a46fca9d35010b9dec246a77792"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-venom-t3.webp",
+      "bytes": 9926,
+      "sha256": "de710c3df7849c43fb8cc5e17aff068c0c35d56daf87c27c31acc1e6eb9f8ed0"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-wraith-t1.webp",
+      "bytes": 7034,
+      "sha256": "2fac1c086e02856f16cfcdb9f459e9850f2bbc91dcfab1d308358a6c37ca93e7"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-wraith-t2.webp",
+      "bytes": 8362,
+      "sha256": "9ea13dd0aa57272ebc06883fb04130845394ec96c769aa1862829cd31eac6c05"
+    },
+    {
+      "path": "art-authored/shipyard/mastery-wraith-t3.webp",
+      "bytes": 11084,
+      "sha256": "40f3be40db857fac7fa86644ee4851155d3ce7d80ad6fb6c735ecf65b8343397"
+    },
+    {
+      "path": "art-authored/shipyard/module-cooling.webp",
+      "bytes": 17860,
+      "sha256": "aeeda12d68d31ce3c8e25bd9c02720a7677ee1a8b74a59e5ebaaf782cc2bdf88"
+    },
+    {
+      "path": "art-authored/shipyard/module-engine.webp",
+      "bytes": 21682,
+      "sha256": "523e440078dfece43be83c86afe49d7927c84ef817a2604d21265ebee6bec478"
+    },
+    {
+      "path": "art-authored/shipyard/module-hull.webp",
+      "bytes": 13402,
+      "sha256": "b297be7d900cf9b3dec1db2b5b65ac3c7d2c353da1d9bed6b93984d40c016cba"
+    },
+    {
+      "path": "art-authored/shipyard/module-magnet.webp",
+      "bytes": 16390,
+      "sha256": "5fa66c45e1d76e268263f7566b2565c417978d632acb1cd28371c5aa28110903"
+    },
+    {
+      "path": "art-authored/shipyard/orbital-bay-plate-v3.webp",
+      "bytes": 211346,
+      "sha256": "d185be47e39274a1e8e7d5a459677cf69c2905a778b331a59a40112b1283ada6"
+    },
+    {
+      "path": "art-authored/shipyard/ship-bulwark.webp",
+      "bytes": 10562,
+      "sha256": "29a7407e615e650e5592fb74552a85fd7cc4843bed201f807ba6fefe3af82372"
+    },
+    {
+      "path": "art-authored/shipyard/ship-eclipse.webp",
+      "bytes": 17280,
+      "sha256": "b5eb04e28821f0971b73eccde13aca0e5c00717a3af77a1469e62e4eccc234d4"
+    },
+    {
+      "path": "art-authored/shipyard/ship-ion-ghost.webp",
+      "bytes": 8060,
+      "sha256": "f726ceaf12b9eaf873e31ff70029900e3177810c8d3d0e1034e9a91b04cf6dcf"
+    },
+    {
+      "path": "art-authored/shipyard/ship-solar-flare.webp",
+      "bytes": 11884,
+      "sha256": "094627e7cf17700218c6a1e0a6c83b12bce85402e338f9f1a2633a626c80869d"
+    },
+    {
+      "path": "art-authored/shipyard/ship-vector.webp",
+      "bytes": 8354,
+      "sha256": "19ca63d566bd1d2fef65a605b9092591a03b9f540b47ef7222ce01cd66349766"
+    },
+    {
+      "path": "art-authored/shipyard/ship-venom.webp",
+      "bytes": 9064,
+      "sha256": "33b71ef0274a8d49baed818a0fad93f5a3f140cf6db485b3aef1fe8c7ffd1589"
+    },
+    {
+      "path": "art-authored/shipyard/ship-wraith.webp",
+      "bytes": 9386,
+      "sha256": "372c0488f127725bbed2d31ac3491ba1ac80db44ff7700e92bf8668755a759b4"
+    },
+    {
+      "path": "art-authored/shipyard/skin-prism-vector.webp",
+      "bytes": 28432,
+      "sha256": "564061c074880906dbe2837f5f55b73e3ea1971bdba6a1488605a1d7f99f2a9d"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-armor-t1.webp",
+      "bytes": 14804,
+      "sha256": "e3574db3c886b6003e8a4614a448d8aa7f1b5f16de0a9cf45834db994879713f"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-armor-t2.webp",
+      "bytes": 23080,
+      "sha256": "397d57e6f3fb86c59f2e5c0ea9e901cf2c57abd16ae415ae7c0e50b3eabfea6d"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-armor-t3.webp",
+      "bytes": 28266,
+      "sha256": "62f26c6b8ae3a9fad5e923463b7b8b7da200236ce5b77923082e051dca113b8a"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-cooling-t1.webp",
+      "bytes": 11180,
+      "sha256": "dc8cd41a209096457ba97786451c3faff1c591806656ac8a8fffe681f0fcf0b7"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-cooling-t2.webp",
+      "bytes": 13340,
+      "sha256": "449a7d1294cbcd87e627b4d929b7dd00feb97277ef1b71782c4c8a853cc0ab6d"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-cooling-t3.webp",
+      "bytes": 15032,
+      "sha256": "9343e69f4424b855a3f691b56ba8faa05813f52f42c6e63c6ec2da946ae2ed0a"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-engine-t1.webp",
+      "bytes": 6766,
+      "sha256": "a9976b1a19fbe8cff8b394e42f84fa72b2c233445ca86fdad918bed17a788c6d"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-engine-t2.webp",
+      "bytes": 7660,
+      "sha256": "b2943535af0ac9ed83a988e3cb4ebd58ef86a36a791b0caed83dae56d1c42d92"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-engine-t3.webp",
+      "bytes": 7858,
+      "sha256": "4feaaa65e1de46b96c7cff1e98a5e54de910fc37722585960214213f87082f3c"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-magnet-t1.webp",
+      "bytes": 7850,
+      "sha256": "54da34fec61685bcb97fdb40bdd262594d379eb0a5bbfa38aaec75ce08768bfd"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-magnet-t2.webp",
+      "bytes": 8754,
+      "sha256": "9f283999d1d876cf907a8f175bf40aec0aa6ae4d36505582ff0351e9f0eb204e"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-bulwark-magnet-t3.webp",
+      "bytes": 16756,
+      "sha256": "f5edb3773f260a9138e06e74967fdf48b199248c7599dc5af583602880a69cdd"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-armor-t1.webp",
+      "bytes": 12820,
+      "sha256": "56156a6fd1fb9210f3a1c408e87c1b30f1419577ed9bdb1324f304ff0e6c4db7"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-armor-t2.webp",
+      "bytes": 19388,
+      "sha256": "ff91365b45ac2a74b64d6c6b4478e1e6ce9181ea321c591ff3801afac79801d5"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-armor-t3.webp",
+      "bytes": 23102,
+      "sha256": "3453ddeab8b2c930a747a34dfa6d162ab99f099a25f7ff7589945591cceef363"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-cooling-t1.webp",
+      "bytes": 9978,
+      "sha256": "157d4a986a9e9c18a5f2b989d0e32756f94073793ddcc6b5c37764b25369ef4e"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-cooling-t2.webp",
+      "bytes": 11044,
+      "sha256": "0d06e11b6852d5a63afb2454da13f78485468f932e0a2b763350c897d9355226"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-cooling-t3.webp",
+      "bytes": 12028,
+      "sha256": "2b2e86552acdb41d775d58716661a59da96d5231a63dae1244ffa451a7cd9281"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-engine-t1.webp",
+      "bytes": 7698,
+      "sha256": "95646246e0d6cd7863810bbe8c9d2f3ebab896863b8a23e054c265f968c461b0"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-engine-t2.webp",
+      "bytes": 9386,
+      "sha256": "1b67ec2ad11adfc0626f4c5a97617f37d8831c3d2f61a551efb65df0284318e1"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-engine-t3.webp",
+      "bytes": 10262,
+      "sha256": "5b9d5b557ac4b015ba5dd32093b4a8631118f8d9962a574dcb024f6307c7945f"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-magnet-t1.webp",
+      "bytes": 8554,
+      "sha256": "9b431e29fa941ae7b7cf100f955e62f713dc79a50661af5e14f5fe267244c4df"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-magnet-t2.webp",
+      "bytes": 10266,
+      "sha256": "4937df22e4fb138f6ff48f1aff3efc3aa59d35e19e35a4214a3639ee2dc12fb7"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-eclipse-magnet-t3.webp",
+      "bytes": 16388,
+      "sha256": "97d0ffb1d183282c949807a6454b136d561dfce28cd37c46622e0993182f1389"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-armor-t1.webp",
+      "bytes": 15730,
+      "sha256": "80d68462ebef8a44a21abc0cce8062b076cbad938f562eb829adb50895ab1038"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-armor-t2.webp",
+      "bytes": 24612,
+      "sha256": "80e0d07d639a75ab6ee34e57993b7172dedb88d21575d981a58438e9f9296121"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-armor-t3.webp",
+      "bytes": 30230,
+      "sha256": "f3d000a428ff10fad0c51a72e04fa94a88a163f1c2bc8f0d34e8f2296477391c"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-cooling-t1.webp",
+      "bytes": 9318,
+      "sha256": "9bd4072122366136346d66a669709c253cd96545b707dced3c9da2b2fbc7005b"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-cooling-t2.webp",
+      "bytes": 10328,
+      "sha256": "bbd45249f46bd20572eca976e72bb81a8520858a953b97fc118b5422bc144702"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-cooling-t3.webp",
+      "bytes": 10912,
+      "sha256": "ce79362522a5431c67352e2e2318f6f2224698ddc2b5b6c2ceb6d6c81b2aca5e"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-engine-t1.webp",
+      "bytes": 7722,
+      "sha256": "2361d8588cd9893c2641e1141cb7e070566d5d04699641969941f3eea39701cb"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-engine-t2.webp",
+      "bytes": 8640,
+      "sha256": "4b932678fc0d8bd7c10afa3fc6307f9215ef740c620a657fa66f8b19367e5518"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-engine-t3.webp",
+      "bytes": 9482,
+      "sha256": "7b74b2d5df76e9f25786251b3746154f451be1981840c00c4a066174cfd3b8f4"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-magnet-t1.webp",
+      "bytes": 8322,
+      "sha256": "b65064b08ad95d6ade7ba12e5043c58ae1b022fbc101feb45e361d81e79d11fc"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-magnet-t2.webp",
+      "bytes": 9622,
+      "sha256": "ea9abd839b3d4aacf1fb1e654a79e923488bef6551ffb5403026525881412825"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-ion-ghost-magnet-t3.webp",
+      "bytes": 17818,
+      "sha256": "292dc0aaad67f0d7fdad74f0df76decea8c64646e50115ab96c303d1cdaa329b"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-armor-t1.webp",
+      "bytes": 11152,
+      "sha256": "0af30473a09dd4c1ed23df3e91ed670dc30ea1be5f263cb906e5d88b42e83190"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-armor-t2.webp",
+      "bytes": 15944,
+      "sha256": "a6879ea5a97daf338789d3947101ca0429aa130476b66649c61babf9d7dff443"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-armor-t3.webp",
+      "bytes": 18694,
+      "sha256": "25bc3512ec80e567c5dad8ab9a45838a4744d33618d668379b06c475a894d972"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-cooling-t1.webp",
+      "bytes": 8908,
+      "sha256": "f4d8bcdd47774b42125c624b9a50e939038b8e03a1bf44c54183a75c741b414a"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-cooling-t2.webp",
+      "bytes": 11918,
+      "sha256": "e037942817cb8188203e423d648a47a3ff9f249b98d8ed34fe91cdc1e5592391"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-cooling-t3.webp",
+      "bytes": 14526,
+      "sha256": "d1127f408e14fee88d584fe4f44097066c180d583d310c75fc2a2d791d39ee03"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-engine-t1.webp",
+      "bytes": 7388,
+      "sha256": "005564cfdfd4f86157abec263cb56d7cdb566a52c449442888d6f468a5f2eda7"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-engine-t2.webp",
+      "bytes": 8828,
+      "sha256": "9450942ec34143aa8530639fdd1ab00bb77ed57469963774d21f0e2dfa1ec211"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-engine-t3.webp",
+      "bytes": 9578,
+      "sha256": "b4c939f1e99e4052ee435d82eccc181a126620101781367c14d226d028c035be"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-magnet-t1.webp",
+      "bytes": 6702,
+      "sha256": "1bb0b2b391fc2d019949e2b9b25a58ed791b4e16772f6142bbf79762d9f1afd3"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-magnet-t2.webp",
+      "bytes": 8342,
+      "sha256": "1db692440dbeb4affa2def168d2eafb7995f9ccb74ed433b19c34e1530f2ba5a"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-solar-flare-magnet-t3.webp",
+      "bytes": 15152,
+      "sha256": "0e4338e7e1de82fac07e93c5e9149814615121222a57f6419ff4f1f1c602bc70"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-armor-t1.webp",
+      "bytes": 13598,
+      "sha256": "f2184021977699693a192926405c1737ffab87d5e143640dcd5aed45a2021fa3"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-armor-t2.webp",
+      "bytes": 20240,
+      "sha256": "99b6b1071262dd5f55c7acd640c05ca7d0b63b1f2c5ab73095bea3b4da161177"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-armor-t3.webp",
+      "bytes": 25010,
+      "sha256": "35f14826d8df8deea4fded223f415d1a486add7a6f119493adcce37cfeab40bc"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-cooling-t1.webp",
+      "bytes": 9660,
+      "sha256": "d6da20deb697a6ab5f62746a551fd4b053c173abd854e6ee904fbbc60e54b01f"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-cooling-t2.webp",
+      "bytes": 11534,
+      "sha256": "14519e9224ba0769df7ec2275b9309b66ceaf3b7d49bc0de2baea558c38eee34"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-cooling-t3.webp",
+      "bytes": 13414,
+      "sha256": "05a08e3c4902f70e4e1c5b4d6d915b875838b32efdb87f55bf3337ab4f2bbcb7"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-engine-t1.webp",
+      "bytes": 7386,
+      "sha256": "dc15215c33fcd0f5e2354adcd74df5522ec4b9bfc787ba7c3cfa612b4ccf7023"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-engine-t2.webp",
+      "bytes": 8308,
+      "sha256": "cd99555457e1ebbc8174f25f7a7fc46d8363634856a21d355009362e48739403"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-engine-t3.webp",
+      "bytes": 9390,
+      "sha256": "f278171be8f93e907009148af280036ee0fcebaa7a40c3a39880bca0973653ff"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-magnet-t1.webp",
+      "bytes": 6880,
+      "sha256": "468ec9c239b28905d96333ac3ee88be005b1dac5505b3ded8bd7fe9119d5a869"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-magnet-t2.webp",
+      "bytes": 7944,
+      "sha256": "39c2c26cc8d4e365e8cb6de71d0b88c6ea48646e11aefa1e05bb84b7c42e1cf9"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-vector-magnet-t3.webp",
+      "bytes": 13508,
+      "sha256": "972f916bfe52c4d66f2ff1e731f9fc239875b02758e405787a19ec7b8665fff6"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-armor-t1.webp",
+      "bytes": 10296,
+      "sha256": "32b3e60e35147c3a0bf33b66649f4c44060262ba5e337bb5bbd3e7607ba2a1f4"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-armor-t2.webp",
+      "bytes": 16470,
+      "sha256": "892d092c98c9fa1c0e0594e7971c01fdf9ac9a7e4acbcb063a4f5890f5618786"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-armor-t3.webp",
+      "bytes": 18708,
+      "sha256": "9bde25700e795556963791934bef97559c172d41086aeba5bde09b3807c9944d"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-cooling-t1.webp",
+      "bytes": 6330,
+      "sha256": "e4d55fae46152983b1c996266a0bc70f292a51b91bc308c301022d3e8c1807c5"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-cooling-t2.webp",
+      "bytes": 8600,
+      "sha256": "e259dec5bf8b2df117f93f4cf57e95869601d809b879bf8207f9f50593c452bb"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-cooling-t3.webp",
+      "bytes": 9812,
+      "sha256": "fdccb5a0a2295ce95b05a8a2444c5e0679ac26b0e923e32569b36c4b762ed5da"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-engine-t1.webp",
+      "bytes": 6724,
+      "sha256": "9de8fc80b8158d83ddd0030bc3cec1a2ac98d58f9c980decb426408ca83ed5f6"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-engine-t2.webp",
+      "bytes": 8532,
+      "sha256": "6e970d710ee291ced00cc1c6a813708376552ea536619dc4c4dd2b9825adf5e0"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-engine-t3.webp",
+      "bytes": 9394,
+      "sha256": "71608fe7dc26b296abf1ebb88eedfb4dbf1edf9f99afe78e0ff0f922fa58d764"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-magnet-t1.webp",
+      "bytes": 7844,
+      "sha256": "9ac4f954d601f03778633ff67ebfaadd42fd7e9aad43d0f4daec0b5e0a360194"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-magnet-t2.webp",
+      "bytes": 9814,
+      "sha256": "d0cfa03c8b7d1457362a7a37c8f99bd9385912ce6d679fec689fea87aa800e29"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-venom-magnet-t3.webp",
+      "bytes": 14414,
+      "sha256": "7b7c3dc4c27d9641ec13eaa0cf08621804fd66ea7fd49c2f102cec8d4c6d0b88"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-armor-t1.webp",
+      "bytes": 10086,
+      "sha256": "f7e308326793e33c22b4c7fee9cf11a3eed42bcbaa9e5fe14d7efb553f6b6967"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-armor-t2.webp",
+      "bytes": 15764,
+      "sha256": "9e489b2d11e3a3c86fd555b8beadc0f16924f061e94fe2d5cf8659273ebdd1a9"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-armor-t3.webp",
+      "bytes": 18258,
+      "sha256": "d8a8ed7fef1bd09de1295ec3ce537fca47a1ad1a9748d84a4a0dd089fa84d0ce"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-cooling-t1.webp",
+      "bytes": 6112,
+      "sha256": "64ecc54603f242d53a8bff3f2e014180e31830ebcc2d9ef730c3f1d2023616c0"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-cooling-t2.webp",
+      "bytes": 6268,
+      "sha256": "008c2d7c54b08cfea65d96cdacc0021a6ccd483dcfd4b72e802c549b97c5fb5f"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-cooling-t3.webp",
+      "bytes": 6510,
+      "sha256": "6f7f9fab408bfcbf38f773fc764cbcf2908ad3246b3122820889ca7a594c07aa"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-engine-t1.webp",
+      "bytes": 6930,
+      "sha256": "57da4314e3b2bd8e19f25a845b02301d93c1cb30cafcf9ffad561e282fd45aa5"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-engine-t2.webp",
+      "bytes": 8212,
+      "sha256": "d0728b6ec649d605465b54ab555d0fb00b94dc1e610e2d1d714333004828302a"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-engine-t3.webp",
+      "bytes": 8960,
+      "sha256": "332fbf04b65e5e09c2520a1cb9ff4c375906709a2ec1ea65b269670b40a7743a"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-magnet-t1.webp",
+      "bytes": 7946,
+      "sha256": "fefc30ee3a85b901425c43777276c7d6dd1e34cf1e64eb729c167d60ced26d67"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-magnet-t2.webp",
+      "bytes": 9372,
+      "sha256": "dfdd851909be765f8db115c900f66c95d9a98373d9c2f60443b7caf6d8cfd592"
+    },
+    {
+      "path": "art-authored/shipyard/upgrade-wraith-magnet-t3.webp",
+      "bytes": 14586,
+      "sha256": "501c470a2731f41611c417a2c5a83419e11bf42faab5ce64dba337c42d73d6f5"
+    },
+    {
+      "path": "art-authored/store/backdrop.png",
+      "bytes": 1690792,
+      "sha256": "79ce6b602d453cb44cdc2792c18fadcecaf5748d296d0357f7b2ff1fdcc622db"
+    },
+    {
+      "path": "art-authored/store/founders-flare.png",
+      "bytes": 907781,
+      "sha256": "ee3e11d058328cc2b427f7d6f4aabd84602ba4e9c1426781db3356fe44c8cfb7"
+    },
+    {
+      "path": "art-authored/store/no-ads.png",
+      "bytes": 498870,
+      "sha256": "4117186f0bc8c593d6b771f1f3640dd67166079ced830e5694157ba70dbab131"
+    },
+    {
+      "path": "art-authored/store/pilot-pass-crest.png",
+      "bytes": 728387,
+      "sha256": "506001cec2d15b442f87981d90d86976342b7f40a09cb54993db359be7948f4f"
+    },
+    {
+      "path": "art-authored/store/prism-shards.png",
+      "bytes": 760375,
+      "sha256": "40f5e179476d1fc82b1d4171ded69bcb6fece1c212b6363c16b4e5951ab21213"
+    },
+    {
+      "path": "art-authored/ui/post-run-complete-environment-v3.webp",
+      "bytes": 102882,
+      "sha256": "f521b543295d07cb437fbd30806d74336f7bc004c2ae65d8b3f4c9c4042c444d"
+    },
+    {
+      "path": "art-authored/ui/post-run-rewards-environment-v2.webp",
+      "bytes": 165602,
+      "sha256": "2142c9592cb647a3ccbed9d54557346896ec4e7cb5416550f1c264534586fce0"
+    },
+    {
+      "path": "art-authored/ui/power-grid-environment-v2.webp",
+      "bytes": 267062,
+      "sha256": "fd43960b4164eaad1d92b077476da0234ef91da9fe8925c09ebe53535d36f369"
+    },
+    {
+      "path": "art-authored/ui/revive-concept-background-v2.webp",
+      "bytes": 183770,
+      "sha256": "54ae0febe23912fa7e91abe5386ddc1af02029b6fdff904898184286bc2d0331"
+    },
+    {
+      "path": "art-authored/ui/revive-recovery-bay-v2.webp",
+      "bytes": 171974,
+      "sha256": "d18106ff1f79f5047885415cf771ac07e7ca119dd94cda5bec0dcf01dbaf500d"
+    },
+    {
+      "path": "art-authored/ui/settings-concept-background-v2.webp",
+      "bytes": 108748,
+      "sha256": "764bd9c508ade3050cf7b38f12acc38e95213d133badd827af6f6d38d841f850"
+    },
+    {
+      "path": "art-authored/vector-v2/vector-v2-high.glb",
+      "bytes": 802300,
+      "sha256": "75c12c5beac525ecfa7bb15c56fe364760efe40349026689dfabedf8880e19d2"
+    },
+    {
+      "path": "art-authored/vector-v2/vector-v2-low.glb",
+      "bytes": 380660,
+      "sha256": "477d459af43f5a518aa900b859cad4b3e450e87989748754352a3306f49131e8"
+    },
+    {
+      "path": "art-authored/vector-v2/vector-v2-medium.glb",
+      "bytes": 545520,
+      "sha256": "673f3f06ce31e0eecf2da89e88b8e70c4e988970ecdfd5e3f780235d005c526b"
+    },
+    {
+      "path": "art-authored/world-transformations/bio-growth-high.glb",
+      "bytes": 406124,
+      "sha256": "8c31dbbcca7eed1f26a9fd6c50a4283583aa2084c73d4804883342c10c280c07"
+    },
+    {
+      "path": "art-authored/world-transformations/bio-growth-low.glb",
+      "bytes": 79732,
+      "sha256": "1dbaa143236d0148544c584a6960e600b1f2a30a01485a7a0b8cdbdeffa8d1b1"
+    },
+    {
+      "path": "art-authored/world-transformations/bio-growth-medium.glb",
+      "bytes": 179268,
+      "sha256": "e35bde0bdc139303e7159577779dcb0a0e4eadbe915d9d5caaad5df00f6fcdff"
+    },
+    {
+      "path": "art-authored/world-transformations/foundry-disassembly-high.glb",
+      "bytes": 295812,
+      "sha256": "233b44654f8d329b765b36846761df6c9c25f02dfe11a3d45d9c5e98a779bc47"
+    },
+    {
+      "path": "art-authored/world-transformations/foundry-disassembly-low.glb",
+      "bytes": 94360,
+      "sha256": "9e93910222c5fb640460803f30c68d8427bb1e97e5c56d7a2ecd4c267975e3c5"
+    },
+    {
+      "path": "art-authored/world-transformations/foundry-disassembly-medium.glb",
+      "bytes": 175900,
+      "sha256": "34443dcd1e451d4aee1a33f687100abd23688c73668e7c53fe7319ecac7bce4e"
+    },
+    {
+      "path": "art-authored/world-transformations/prism-crystallization-high.glb",
+      "bytes": 148244,
+      "sha256": "fd1046ceb76b789af8baf886b0882b0c6afe22a1f14131c5d21167bf9ff61e9e"
+    },
+    {
+      "path": "art-authored/world-transformations/prism-crystallization-low.glb",
+      "bytes": 68676,
+      "sha256": "c9f651d7c07a1338bb115e0ce048296438c135fa59db3ec8f93fd7af4e5e45a4"
+    },
+    {
+      "path": "art-authored/world-transformations/prism-crystallization-medium.glb",
+      "bytes": 99404,
+      "sha256": "c864af1705e69abedbc99e1ad8edf4fc31ee51057266ad7b96214e719914977d"
+    },
+    {
+      "path": "art-authored/worlds/atlas-backdrop.png",
+      "bytes": 1926564,
+      "sha256": "5d584979796e24d571d392b194f2026b2eeff5c1ab04c9e65979fb39c6b4f64a"
+    },
+    {
+      "path": "art-authored/worlds/atlas-concept-background-v2.webp",
+      "bytes": 147356,
+      "sha256": "52e4779c5ca56b95f45e4ca5617b85ceef61a6b5975e8462d9d99bab4cf5c64f"
+    },
+    {
+      "path": "art-authored/worlds/atlas-runner.png",
+      "bytes": 196799,
+      "sha256": "eb9f594a65e16c8ffea7b1c3c1a238fa69d76cb9bead0bffc5a666d5a1c5a5ff"
+    },
+    {
+      "path": "art-authored/worlds/orb-bio-reactor.png",
+      "bytes": 371108,
+      "sha256": "b8c4a0eb33e642bd995da3ce41e48226c0aae927cfd55eb357c45c71c4c57c89"
+    },
+    {
+      "path": "art-authored/worlds/orb-ignition-foundry.png",
+      "bytes": 378534,
+      "sha256": "9d546fba87d3e9ccee367a6e8763e62acd8bf72f7f38322c3658c992550d2f3e"
+    },
+    {
+      "path": "art-authored/worlds/orb-prism-array.png",
+      "bytes": 297955,
+      "sha256": "20e4966c91e26f13af196f50c9e956e8ad7645427836ed60ce96974dd061e46b"
+    },
+    {
+      "path": "art-authored/worlds/plate-bio-reactor.png",
+      "bytes": 922183,
+      "sha256": "eb633298d2b589a4464af6e3aec73b36f1ccce36eebc97df63ca8723fddf9b59"
+    },
+    {
+      "path": "art-authored/worlds/plate-ignition-foundry.png",
+      "bytes": 979861,
+      "sha256": "8c17740b8240b44e657ac74f01ed9a64ce18a5c88cfe6589c53798248561a3a8"
+    },
+    {
+      "path": "art-authored/worlds/plate-prism-array.png",
+      "bytes": 999164,
+      "sha256": "e5de6380e5de973877a2edd1e0233db9ede0bc9d270eaf42b2cef7047ca9e739"
+    },
+    {
+      "path": "models/bosses/bio-heart-high.glb",
+      "bytes": 2214900,
+      "sha256": "08d5345ff34ab8270349146ea2486e9df396ae5fb7f394d71f724be0d9c112dc",
+      "triangles": 36128,
+      "drawables": 14,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hazard",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/bosses/bio-heart-low.glb",
+      "bytes": 363448,
+      "sha256": "8ae281aec2a561705f9fa707d8c180a8612998e1c8e883d26ab57088c142929a",
+      "triangles": 5368,
+      "drawables": 14,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hazard",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/bosses/bio-heart-medium.glb",
+      "bytes": 883984,
+      "sha256": "8025f899c80d30ee11a910b9701fd55c0d2ca33d90aa39ed059a64ba3322bae3",
+      "triangles": 13480,
+      "drawables": 14,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hazard",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/bosses/guardian-high.glb",
+      "bytes": 1231172,
+      "sha256": "731ff0e42bc1bedce59eabf13cd38648a49075586c7ae57876deed56c0e15e76",
+      "triangles": 15744,
+      "drawables": 14,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "hazard",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/bosses/guardian-low.glb",
+      "bytes": 221472,
+      "sha256": "ff639b15d34a7da30b55b86d8fa538ece1d3aa00d455fc535d1a31450046af80",
+      "triangles": 2560,
+      "drawables": 14,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "hazard",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/bosses/guardian-medium.glb",
+      "bytes": 531632,
+      "sha256": "d946a0b3ccfb0786ef58467e28c2e18cf5ba1b054069ccb4511dbf2eb01c9f6c",
+      "triangles": 6528,
+      "drawables": 14,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "hazard",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/bosses/prism-warden-high.glb",
+      "bytes": 566484,
+      "sha256": "08ef72891e15588daa70f4469a5b92f246c6d055667c46ec977c6f60af375fbf",
+      "triangles": 6584,
+      "drawables": 8,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hazard",
+        "hull",
+        "porcelain",
+        "reward"
+      ]
+    },
+    {
+      "path": "models/bosses/prism-warden-low.glb",
+      "bytes": 142172,
+      "sha256": "01c1c8f85f47e83f70819d81b10cb60bfdee3ffdbf7e32adde65ec4f60007612",
+      "triangles": 1496,
+      "drawables": 8,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hazard",
+        "hull",
+        "porcelain",
+        "reward"
+      ]
+    },
+    {
+      "path": "models/bosses/prism-warden-medium.glb",
+      "bytes": 274924,
+      "sha256": "00533ff918ea94d3eb02da3c99a34992f62bece773034fec09c90fe805cb27b3",
+      "triangles": 3072,
+      "drawables": 8,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hazard",
+        "hull",
+        "porcelain",
+        "reward"
+      ]
+    },
+    {
+      "path": "models/gameplay/enemy-bio.glb",
+      "bytes": 235672,
+      "sha256": "d444a5b68b66ed9ca0066f82d135f6ef64eb75c4a79e5309a300fefbea6e56e7",
+      "triangles": 3152,
+      "drawables": 5,
+      "materials": [
+        "accent",
+        "engine",
+        "hazard",
+        "hull",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/gameplay/enemy-foundry.glb",
+      "bytes": 206868,
+      "sha256": "a7191425cc50dee2fa4eff98e4514a4304dc122bf644180e79a4d93bdbbaeb84",
+      "triangles": 2852,
+      "drawables": 5,
+      "materials": [
+        "accent",
+        "engine",
+        "hazard",
+        "hull",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/gameplay/enemy-prism.glb",
+      "bytes": 183624,
+      "sha256": "64ea0df580118e4731a549eb92430c0b891360bb67d367604e349fe2901a530f",
+      "triangles": 2600,
+      "drawables": 6,
+      "materials": [
+        "accent",
+        "engine",
+        "hazard",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/gameplay/hazard-block.glb",
+      "bytes": 6368,
+      "sha256": "651a6320b6ae2b2cc05c900cccdb1d31d24cba609d1255586a52e2bd7a1b90bc",
+      "triangles": 44,
+      "drawables": 2,
+      "materials": [
+        "dark",
+        "hazard"
+      ]
+    },
+    {
+      "path": "models/gameplay/hazard-door.glb",
+      "bytes": 99264,
+      "sha256": "ed0c989634240ff605d8dc28fd3d4516223409d3839fcfbd4bab9eaebb20c3ce",
+      "triangles": 1448,
+      "drawables": 4,
+      "materials": [
+        "dark",
+        "engine",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/gameplay/hazard-drum.glb",
+      "bytes": 18676,
+      "sha256": "8cd617e85f2e161ccd6ac1aff44bc179104d06757ff91b547d8e365e614b97c9",
+      "triangles": 168,
+      "drawables": 3,
+      "materials": [
+        "dark",
+        "hazard",
+        "porcelain"
+      ]
+    },
+    {
+      "path": "models/gameplay/hazard-membrane.glb",
+      "bytes": 104032,
+      "sha256": "bd2ca0dfad32a4a9e0b4f43079f24163b713cf417fe491a40053324c43c392aa",
+      "triangles": 1152,
+      "drawables": 3,
+      "materials": [
+        "dark",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/gameplay/hazard-orb.glb",
+      "bytes": 8148,
+      "sha256": "73e555ec9bcbfbfab21417a79a1cc5c2295ad18394a7852ed3572dea77bc7770",
+      "triangles": 56,
+      "drawables": 3,
+      "materials": [
+        "dark",
+        "engine",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/gameplay/hazard-panel.glb",
+      "bytes": 156956,
+      "sha256": "a10869504ab1fa965dcc6531f6f2c4dd7b9f881575be6cc966a57c4ca01c8ce0",
+      "triangles": 1600,
+      "drawables": 3,
+      "materials": [
+        "dark",
+        "hazard",
+        "porcelain"
+      ]
+    },
+    {
+      "path": "models/gameplay/hazard-phase.glb",
+      "bytes": 44508,
+      "sha256": "6cc17e995ea06d84808a4fb088ec72a4df139440467b230b5f6fc403fa3d3e9e",
+      "triangles": 440,
+      "drawables": 2,
+      "materials": [
+        "hull",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/gameplay/hazard-shutter.glb",
+      "bytes": 52904,
+      "sha256": "e8bd41573783dd08434eca3de56283aafd5bcb4514735275de1497e40877b37a",
+      "triangles": 528,
+      "drawables": 2,
+      "materials": [
+        "dark",
+        "hazard"
+      ]
+    },
+    {
+      "path": "models/gameplay/hazard-splitter.glb",
+      "bytes": 28328,
+      "sha256": "64a8ae784be2bd33c08ec150895a571e58a16bdcdf1d5e3cb3b3838f9cdbec74",
+      "triangles": 272,
+      "drawables": 2,
+      "materials": [
+        "dark",
+        "porcelain"
+      ]
+    },
+    {
+      "path": "models/gameplay/hazard-vine.glb",
+      "bytes": 43744,
+      "sha256": "7d5a934e7d92d30f06423a2646ee34a8593fdf7cb268efe46d5d16c6173d048f",
+      "triangles": 432,
+      "drawables": 2,
+      "materials": [
+        "dark",
+        "hull"
+      ]
+    },
+    {
+      "path": "models/gameplay/pickup-bomb.glb",
+      "bytes": 43636,
+      "sha256": "9fd852b664259154ffc1771f84d29c24aff930164797d313be16dd3640554cb6",
+      "triangles": 724,
+      "drawables": 2,
+      "materials": [
+        "hazard",
+        "porcelain"
+      ]
+    },
+    {
+      "path": "models/gameplay/pickup-coolant.glb",
+      "bytes": 17972,
+      "sha256": "0988f346b5f43c594a4c9eab0c469f8d1a3d5e2f91bad43c850c2a471a5c483c",
+      "triangles": 520,
+      "drawables": 2,
+      "materials": [
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/gameplay/pickup-credit-meshy.glb",
+      "bytes": 514136,
+      "sha256": "aaa0ed54a6f43f2c470e274be86650cc5c7e26fd4614d467b825c0eca9698853"
+    },
+    {
+      "path": "models/gameplay/pickup-credit.glb",
+      "bytes": 19280,
+      "sha256": "9a8ce4ca4e13a84f319be114bc4eeaa388f70f5bcb2c93deaff4b11938a4892c",
+      "triangles": 472,
+      "drawables": 2,
+      "materials": [
+        "porcelain",
+        "reward"
+      ]
+    },
+    {
+      "path": "models/gameplay/pickup-life.glb",
+      "bytes": 41288,
+      "sha256": "7aeb6d61dd306df1bdbe30dd55f5f96bc884fb1c90fc0e134007adc6a7926077",
+      "triangles": 1600,
+      "drawables": 2,
+      "materials": [
+        "porcelain",
+        "reward"
+      ]
+    },
+    {
+      "path": "models/gameplay/pickup-shield.glb",
+      "bytes": 22328,
+      "sha256": "a6fa8733e18f9ff4f1a2911306db1ac45293545cce8704eeef9fa52c33db2605",
+      "triangles": 800,
+      "drawables": 2,
+      "materials": [
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/ships/bulwark-high.glb",
+      "bytes": 1344644,
+      "sha256": "df3bb93d9c7e6b87caec8ef6cbc1e8da21f5df3f4c85e998dc20f21d39f67911",
+      "triangles": 13924,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/ships/bulwark-low.glb",
+      "bytes": 272512,
+      "sha256": "1fd6aaa1d2adfef71ef174caf5da94234cda3fa920bf1be2837a3a04aa834635",
+      "triangles": 2756,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/ships/bulwark-medium.glb",
+      "bytes": 592016,
+      "sha256": "8d2248c8f7112d8f763926884325b6f62d7f9f34cf977d36847ba9586df4af9f",
+      "triangles": 6084,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/ships/vector-high.glb",
+      "bytes": 873212,
+      "sha256": "e97b8dee6a79345c7edace30837787d83d4a380e0a72477a64f78600ee8339af",
+      "triangles": 9012,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/ships/vector-low.glb",
+      "bytes": 248836,
+      "sha256": "4d13b346188a477bc07631842c1e3fc2b0a06e84c740deafc4b6dd30d5a371d5",
+      "triangles": 2508,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/ships/vector-medium.glb",
+      "bytes": 422008,
+      "sha256": "c949ee3384be054b4863ff3cccdd181916e721002d69c14079f647eb1eb57ac7",
+      "triangles": 4312,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/ships/wraith-high.glb",
+      "bytes": 1093088,
+      "sha256": "c3f633288021869bd3cb8a05143eda45c7d8d42044f3b30defe55f102b57f244",
+      "triangles": 11304,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/ships/wraith-low.glb",
+      "bytes": 218352,
+      "sha256": "569147f670b81db6ba992f6235dc67f6aa1405fd65b83c48d9ac690653763463",
+      "triangles": 2192,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/ships/wraith-medium.glb",
+      "bytes": 476764,
+      "sha256": "2f0e9c072cd5ba446fa48b085a06d84ced027e97eb00202a49b023609ff2d989",
+      "triangles": 4884,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "dark",
+        "engine",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "models/ui/reward-crate-high.glb",
+      "bytes": 578484,
+      "sha256": "48888909a9e99853e92b2a59e4fbb0946b15fd252d71d9d17ba4f09816420aea"
+    },
+    {
+      "path": "models/ui/reward-crate-low.glb",
+      "bytes": 127856,
+      "sha256": "b6a7605721fba9113f072d6599408719ae1d22d3a9628a7b9698d9a95cf33903"
+    },
+    {
+      "path": "models/ui/reward-crate-medium.glb",
+      "bytes": 246048,
+      "sha256": "c9b9ceb6743951e0c94847f7e7431b8f7566c2fb14ce2f5fe3ec6a6556939ae4"
+    },
+    {
+      "path": "models/ui/reward-crate-meshy-high.glb",
+      "bytes": 4257556,
+      "sha256": "b7cfb0a42847d03c3d24b511c00f7cb8ece244663d0387a0f3443d7e80f2776a"
+    },
+    {
+      "path": "models/ui/reward-crate-meshy-low.glb",
+      "bytes": 1019140,
+      "sha256": "ee87f6d67ce753b614c37949475edf6da3ea8533a88fe77228b9bccbd4fe47c3"
+    },
+    {
+      "path": "models/ui/reward-crate-meshy-medium.glb",
+      "bytes": 1974156,
+      "sha256": "bdf29c3aa6f070b6fc39276b2023ed47790fcf79bab80a4a7f30a436104a99f3"
+    },
+    {
+      "path": "models/ui/salvage-package.glb",
+      "bytes": 496900,
+      "sha256": "400e6fb7c969146d4c4c8da145ae606379125ab07256e891a4317d5627195603"
+    },
+    {
+      "path": "worlds/bio/landmark-high.glb",
+      "bytes": 952644,
+      "sha256": "e93bd6303dc6e3f9c7d2b4f54d3f1c8aa5033523198aafffea07c51c1d753a8c",
+      "triangles": 13072,
+      "drawables": 6,
+      "materials": [
+        "accent",
+        "hazard",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "worlds/bio/landmark-low.glb",
+      "bytes": 115808,
+      "sha256": "510deb46d5f72dc073ab50c1372d37d7b69c5410cfdd3bb3c6f45936f0486d8e",
+      "triangles": 1632,
+      "drawables": 6,
+      "materials": [
+        "accent",
+        "hazard",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "worlds/bio/landmark-medium.glb",
+      "bytes": 321396,
+      "sha256": "754b7cf126c455a72b5dd9c641a2c4eab5142d09bd8ee76e0eb6abb5bdc80bbf",
+      "triangles": 4512,
+      "drawables": 6,
+      "materials": [
+        "accent",
+        "hazard",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "worlds/bio/wall-base-high.ktx2",
+      "bytes": 66239,
+      "sha256": "393ab5ea449624418f9f97d1442cdf624b84cb3bd9b6bcf458f4e76972d5444c",
+      "texture": {
+        "world": "bio",
+        "kind": "base",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-base-high.png",
+      "bytes": 88250,
+      "sha256": "fe113fb752cd68981ab7e3a9a2a55c1eca4aa7e63cfd94c0f7ceed1d7a35ba22",
+      "texture": {
+        "world": "bio",
+        "kind": "base",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-base-low.ktx2",
+      "bytes": 9509,
+      "sha256": "08385c6bbb45f06294eda259970da4f813ccd4eca05f4e9134c1c15884a2a799",
+      "texture": {
+        "world": "bio",
+        "kind": "base",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-base-low.png",
+      "bytes": 14431,
+      "sha256": "444727c52091976b622627bec4c14fe8df0f3953e53335be6d07fc4b7b7d251d",
+      "texture": {
+        "world": "bio",
+        "kind": "base",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-base-medium.ktx2",
+      "bytes": 25972,
+      "sha256": "1867a97cf49b6e49c6e13d3c82bd5f4e12bae30b981337a2704d397377b85d4e",
+      "texture": {
+        "world": "bio",
+        "kind": "base",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-base-medium.png",
+      "bytes": 38335,
+      "sha256": "7987fad9a7a332f2429672335d8202ca5b8ac009b9c70889738774d27e68c178",
+      "texture": {
+        "world": "bio",
+        "kind": "base",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-emissive-high.ktx2",
+      "bytes": 15289,
+      "sha256": "584e73080925b62f76c916b9d3dce6d00ff8807dc1e7d1d2b0663aadf83cd316",
+      "texture": {
+        "world": "bio",
+        "kind": "emissive",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-emissive-high.png",
+      "bytes": 11882,
+      "sha256": "f995fc7e512be6cbb38905065eebbcea4f22d65ead640f85cfa282f04707f944",
+      "texture": {
+        "world": "bio",
+        "kind": "emissive",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-emissive-low.ktx2",
+      "bytes": 3667,
+      "sha256": "85bb97e5251144694a118cbdf438e36b9cb5804805da1533aca29b06e457211e",
+      "texture": {
+        "world": "bio",
+        "kind": "emissive",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-emissive-low.png",
+      "bytes": 1656,
+      "sha256": "ae9092ab31cb032b899fe4ea6675729d9a60060f3db491046b3c4f9ed7a04035",
+      "texture": {
+        "world": "bio",
+        "kind": "emissive",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-emissive-medium.ktx2",
+      "bytes": 7330,
+      "sha256": "a8aebd94997b7a7375d8a77b6708a08d7229fcb370882f4f3bd7263eb46c547a",
+      "texture": {
+        "world": "bio",
+        "kind": "emissive",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-emissive-medium.png",
+      "bytes": 4309,
+      "sha256": "d21677ced530b06e85d784367fe1bf732c8b221d9e1e3aa12320d088e4dec12b",
+      "texture": {
+        "world": "bio",
+        "kind": "emissive",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-normal-high.ktx2",
+      "bytes": 36679,
+      "sha256": "cfb1f49b0cce9578d793ab86f205e0c7c1e60984f98f41609e92f00086d547a4",
+      "texture": {
+        "world": "bio",
+        "kind": "normal",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-normal-high.png",
+      "bytes": 49464,
+      "sha256": "ee98f62aadebb1fefa80c4e87cc0c97c733a0b86fe36fa7ec2313b21302acab3",
+      "texture": {
+        "world": "bio",
+        "kind": "normal",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-normal-low.ktx2",
+      "bytes": 9068,
+      "sha256": "dcda6e76f0be6acfa05e9303e45037ce46bc58c4fbb44bba99adca70581ffa7f",
+      "texture": {
+        "world": "bio",
+        "kind": "normal",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-normal-low.png",
+      "bytes": 18137,
+      "sha256": "32fc9ed2e8b37765e3811fab5243f7026f72c5fa445bae729262d2265321692b",
+      "texture": {
+        "world": "bio",
+        "kind": "normal",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-normal-medium.ktx2",
+      "bytes": 18746,
+      "sha256": "daad2dffc6f26ac5a5487d6d73d10ba801343f6a90243df186d8e81d04ed8d0b",
+      "texture": {
+        "world": "bio",
+        "kind": "normal",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-normal-medium.png",
+      "bytes": 29045,
+      "sha256": "2b6e2feecaed6445488f9ff28123beb36c6e33d33d81b954e8dae88e9ff0e3c3",
+      "texture": {
+        "world": "bio",
+        "kind": "normal",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-orm-high.ktx2",
+      "bytes": 31955,
+      "sha256": "d0841b8d14aae2b4b29aec48759b53e504656b7d57d5fe926f7b9478b54e6746",
+      "texture": {
+        "world": "bio",
+        "kind": "orm",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-orm-high.png",
+      "bytes": 29951,
+      "sha256": "8bd534cf053895cc0e23de347ed483765ff831e7f1e4c68dd22421faeb4aa2c7",
+      "texture": {
+        "world": "bio",
+        "kind": "orm",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-orm-low.ktx2",
+      "bytes": 6460,
+      "sha256": "573b3d942126134bb43e722049133ee5ad95c4eeb22ed63733ec903afe0706cc",
+      "texture": {
+        "world": "bio",
+        "kind": "orm",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-orm-low.png",
+      "bytes": 4535,
+      "sha256": "761be461b4d9178e3e509d7d8a3df5b5daf70b61269a08b6d7c37888d12e0571",
+      "texture": {
+        "world": "bio",
+        "kind": "orm",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-orm-medium.ktx2",
+      "bytes": 14546,
+      "sha256": "1f479669d8ddee1fb18f888fbbf401f13702191c1d2bc2e18674b74d282fc415",
+      "texture": {
+        "world": "bio",
+        "kind": "orm",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-orm-medium.png",
+      "bytes": 11590,
+      "sha256": "6a8fda7c9eec2c97c272e22bca28b2bae28f61f9b5f1e2ab20b6a026d8978c65",
+      "texture": {
+        "world": "bio",
+        "kind": "orm",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/bio/wall-premium-base-v1-high.png",
+      "bytes": 1623183,
+      "sha256": "081cf99e185bb942d20377db5f8fdb410fe5d40b22481f72649cf98002ed268d"
+    },
+    {
+      "path": "worlds/bio/wall-premium-base-v1-low.png",
+      "bytes": 129722,
+      "sha256": "5516528f02dba1e434ffd359b5743c0632966d99721590dfcd675094a7c5919d"
+    },
+    {
+      "path": "worlds/bio/wall-premium-base-v1-medium.png",
+      "bytes": 456445,
+      "sha256": "21829b498575b801dbecf3644f3be71bd72352e7b67cf7e63ff2d14cb688f716"
+    },
+    {
+      "path": "worlds/foundry/landmark-high.glb",
+      "bytes": 381516,
+      "sha256": "4e829799d59b5735e0d3e624559fc2ed4e3487c985c47f4ae40995428be3e130",
+      "triangles": 4816,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "worlds/foundry/landmark-low.glb",
+      "bytes": 85088,
+      "sha256": "dc29ed66006570fd4511c40cafab9c5b931fbd9cf3cb0c6b122a0ff4373bfb40",
+      "triangles": 928,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "worlds/foundry/landmark-medium.glb",
+      "bytes": 187952,
+      "sha256": "0761d3bffa13150fd399fc3abd4ea586f4e8e849e6ddbe3a61abf3f22f3745de",
+      "triangles": 2240,
+      "drawables": 7,
+      "materials": [
+        "accent",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "worlds/foundry/machinery-atlas-v1.png",
+      "bytes": 1366339,
+      "sha256": "c9758f511de0ba059ec41a331eb85889ee7de96bdff1eb7cb9fe12872562342f"
+    },
+    {
+      "path": "worlds/foundry/wall-base-high.ktx2",
+      "bytes": 16270,
+      "sha256": "4405368725379f503f32abec29d67cfe4ddc9b7f16710fb6d684f25f1c40a387",
+      "texture": {
+        "world": "foundry",
+        "kind": "base",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-base-high.png",
+      "bytes": 17859,
+      "sha256": "95e29f585ab4bc91e0ed40b94bda3c24ab413b572e3b7ca2f09c6a3be543a68e",
+      "texture": {
+        "world": "foundry",
+        "kind": "base",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-base-low.ktx2",
+      "bytes": 3928,
+      "sha256": "5d6c738753119e1d38347672363878e4d0599979186fe876a6178f1c8e23d240",
+      "texture": {
+        "world": "foundry",
+        "kind": "base",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-base-low.png",
+      "bytes": 3036,
+      "sha256": "174afa34cd4bedcae3705d9b6703c8684e927f66f13c2283595de374d5412dfb",
+      "texture": {
+        "world": "foundry",
+        "kind": "base",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-base-medium.ktx2",
+      "bytes": 8100,
+      "sha256": "6fe1bcbc08c800b815448b387d05487fa2c9b1a5aa0772839d6ac9b5f182e00e",
+      "texture": {
+        "world": "foundry",
+        "kind": "base",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-base-medium.png",
+      "bytes": 6864,
+      "sha256": "f9cfd63fae613d369ab2c7b20409f09f2db407bd9daf82592c8aaa804315709f",
+      "texture": {
+        "world": "foundry",
+        "kind": "base",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-emissive-high.ktx2",
+      "bytes": 6435,
+      "sha256": "b0d1cf6621bc935258392351fe82ab5fbe494c23679db042074244eaafce2cbe",
+      "texture": {
+        "world": "foundry",
+        "kind": "emissive",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-emissive-high.png",
+      "bytes": 9506,
+      "sha256": "2c6a50c5542b45a7c5ce6ef266a4374c8ec3015ab363e06f80f8b87ba9b5d09c",
+      "texture": {
+        "world": "foundry",
+        "kind": "emissive",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-emissive-low.ktx2",
+      "bytes": 1850,
+      "sha256": "a54cc2e6d7041cb4953b5deaf43d69dbcb351122cdafa2dd4659282b14e7dc08",
+      "texture": {
+        "world": "foundry",
+        "kind": "emissive",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-emissive-low.png",
+      "bytes": 1148,
+      "sha256": "24826bef8ed7fb1bdc7580c7aac8c1eddb59db291965099289ee2095df27029d",
+      "texture": {
+        "world": "foundry",
+        "kind": "emissive",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-emissive-medium.ktx2",
+      "bytes": 3272,
+      "sha256": "b54f862ac3e7d1417d33b2055a84996a2a1a5810408959f0e46f703e36ff6aa3",
+      "texture": {
+        "world": "foundry",
+        "kind": "emissive",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-emissive-medium.png",
+      "bytes": 3103,
+      "sha256": "899ea334099f4aa013d7a1b606d766a3a03c12bd668d5406ef6b2ef9a824d0ec",
+      "texture": {
+        "world": "foundry",
+        "kind": "emissive",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-normal-high.ktx2",
+      "bytes": 16351,
+      "sha256": "31c3e7a343bf65e512eda6a491e1a12857619007b436696a230ef9195fe4afb7",
+      "texture": {
+        "world": "foundry",
+        "kind": "normal",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-normal-high.png",
+      "bytes": 18068,
+      "sha256": "1627a0cfc9171758c0811c2af6dceb9c1249650be03165eea81e8e6b39c46172",
+      "texture": {
+        "world": "foundry",
+        "kind": "normal",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-normal-low.ktx2",
+      "bytes": 5142,
+      "sha256": "42311aa5ff72739188d6b0befbdb54baa815360a591311c99abae0a2947ea717",
+      "texture": {
+        "world": "foundry",
+        "kind": "normal",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-normal-low.png",
+      "bytes": 2915,
+      "sha256": "b8978b900aadac19b481ac1585a2821f4230692115b2bdbedfc28e2c630465d0",
+      "texture": {
+        "world": "foundry",
+        "kind": "normal",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-normal-medium.ktx2",
+      "bytes": 8934,
+      "sha256": "de6a36f267c3b38de3de0964d6cc5aa139fff50468b98efa4dd263dde3d2a681",
+      "texture": {
+        "world": "foundry",
+        "kind": "normal",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-normal-medium.png",
+      "bytes": 6481,
+      "sha256": "f8db45918245fe120c509d5e4d83e147ca7233f608fbf11a5ba841fb76d991ee",
+      "texture": {
+        "world": "foundry",
+        "kind": "normal",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-orm-high.ktx2",
+      "bytes": 13038,
+      "sha256": "228c56fdf7933a730de2cacd695bcce37c1b35155d6ba620a12363c017a18eb4",
+      "texture": {
+        "world": "foundry",
+        "kind": "orm",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-orm-high.png",
+      "bytes": 15504,
+      "sha256": "03f86ba160ff24d90acc9d8d8bcc2167adf34a35ec6147a02ef5d605f2b50d49",
+      "texture": {
+        "world": "foundry",
+        "kind": "orm",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-orm-low.ktx2",
+      "bytes": 3646,
+      "sha256": "b3cc1e05b1eafcf3ee19680f85cd4de4a789624aa9448f27dd5f8ae58141d8e9",
+      "texture": {
+        "world": "foundry",
+        "kind": "orm",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-orm-low.png",
+      "bytes": 1553,
+      "sha256": "2b365cc984caef5a08a42f8a7fd4bcfa3f8180c7ea3538c601a96620568bce3a",
+      "texture": {
+        "world": "foundry",
+        "kind": "orm",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-orm-medium.ktx2",
+      "bytes": 7130,
+      "sha256": "0140f01d4a59b787cc4f64b2f5134b0eaf68826261735d4294b83e71cba72142",
+      "texture": {
+        "world": "foundry",
+        "kind": "orm",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-orm-medium.png",
+      "bytes": 4941,
+      "sha256": "487b384ee18fd82fd55be0f363962a3e72ff719b954fb07fdc1837b1ec05f3f3",
+      "texture": {
+        "world": "foundry",
+        "kind": "orm",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/foundry/wall-premium-base-v1-high.png",
+      "bytes": 1396181,
+      "sha256": "ce3d9ba5999a7647c21211536b82d71e30aaaf76fee000c3fccc61c0386146a7"
+    },
+    {
+      "path": "worlds/foundry/wall-premium-base-v1-low.png",
+      "bytes": 107791,
+      "sha256": "be40a50b47a6891d15453aec78fc930b534f046c9ce65e749070495733f649e8"
+    },
+    {
+      "path": "worlds/foundry/wall-premium-base-v1-medium.png",
+      "bytes": 381921,
+      "sha256": "1163508722620daaf1c9b9896b8657d2d731c7afc7d36632bca05c06d3f26fcd"
+    },
+    {
+      "path": "worlds/prism/landmark-high.glb",
+      "bytes": 1141180,
+      "sha256": "466baa42d789e61f6b3ecde4e5546f804717dd6a3d7a859c5a603e237b54c434",
+      "triangles": 12592,
+      "drawables": 6,
+      "materials": [
+        "accent",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "worlds/prism/landmark-low.glb",
+      "bytes": 168540,
+      "sha256": "79d3425231101cd91247d404479cbe105c2978409dfe28c2f3a7c1d1974cf8c3",
+      "triangles": 1792,
+      "drawables": 6,
+      "materials": [
+        "accent",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "worlds/prism/landmark-medium.glb",
+      "bytes": 446404,
+      "sha256": "e2a0f03522e9b71896d0ed5971c87c9f92bb828c347e25b38cc1ffe962496768",
+      "triangles": 4880,
+      "drawables": 6,
+      "materials": [
+        "accent",
+        "glass",
+        "hull",
+        "porcelain",
+        "trim"
+      ]
+    },
+    {
+      "path": "worlds/prism/wall-base-high.ktx2",
+      "bytes": 27746,
+      "sha256": "fb660c3d1778d6797336ac8c18bd1e4933448274ac2b3764547ff3ff7901bd29",
+      "texture": {
+        "world": "prism",
+        "kind": "base",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-base-high.png",
+      "bytes": 20329,
+      "sha256": "81fa8035035f41be71c1523a0703cbb9813096fd274fe841c465156321b3687e",
+      "texture": {
+        "world": "prism",
+        "kind": "base",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-base-low.ktx2",
+      "bytes": 5382,
+      "sha256": "e559ad3609462e19c33b1644d54e1aa75a700c14d106bbc6b6c220aed29c38d9",
+      "texture": {
+        "world": "prism",
+        "kind": "base",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-base-low.png",
+      "bytes": 4162,
+      "sha256": "3e07938ac3f910b59055e44d111e262326a774cd3b19c07f3023165e59bf7fed",
+      "texture": {
+        "world": "prism",
+        "kind": "base",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-base-medium.ktx2",
+      "bytes": 12354,
+      "sha256": "60f65517675e080838d6384f3d7164ad46f627062c14e3330a7a6e4718becad7",
+      "texture": {
+        "world": "prism",
+        "kind": "base",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-base-medium.png",
+      "bytes": 9353,
+      "sha256": "f0c6179ed15246cd11e15cab51bc06c3d490ad9506dde48d6d1ef77cd586ae9a",
+      "texture": {
+        "world": "prism",
+        "kind": "base",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-emissive-high.ktx2",
+      "bytes": 8574,
+      "sha256": "47c615b0278c082a66a0c916631b9bb39e503093fdc9a2b49228e937aef76be4",
+      "texture": {
+        "world": "prism",
+        "kind": "emissive",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-emissive-high.png",
+      "bytes": 9902,
+      "sha256": "bb167a8d3570b13a470ed74745078c52105cde1d45d69d18b5e6646a21c86cf7",
+      "texture": {
+        "world": "prism",
+        "kind": "emissive",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-emissive-low.ktx2",
+      "bytes": 1997,
+      "sha256": "c5e77c493c6198c840a063b449377d45fc58606df50ee5c43d9d9accd85fefcd",
+      "texture": {
+        "world": "prism",
+        "kind": "emissive",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-emissive-low.png",
+      "bytes": 1259,
+      "sha256": "889d92dc6eb64c22ce0a57417759a0bdaf1a4fe7f2440747cd3b8ec335da72bd",
+      "texture": {
+        "world": "prism",
+        "kind": "emissive",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-emissive-medium.ktx2",
+      "bytes": 3900,
+      "sha256": "f993771f2157ffcee0a708452d9176745996c5d56129274f41ed8c0bb52fe6d3",
+      "texture": {
+        "world": "prism",
+        "kind": "emissive",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-emissive-medium.png",
+      "bytes": 3338,
+      "sha256": "601c2ff1b884d71da8cc9231b38163be4d56be3c50c4f7e040d75fd5a866db7b",
+      "texture": {
+        "world": "prism",
+        "kind": "emissive",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-normal-high.ktx2",
+      "bytes": 18676,
+      "sha256": "1a13f693c60932e05556c7d7f38d67e9de1c382df0ddd6b1daaaa5d7ebbb73fc",
+      "texture": {
+        "world": "prism",
+        "kind": "normal",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-normal-high.png",
+      "bytes": 19131,
+      "sha256": "2e39fbe30e3af9f35d30260bae3788ab060fc5cd43b0e200617360fbf8da7707",
+      "texture": {
+        "world": "prism",
+        "kind": "normal",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-normal-low.ktx2",
+      "bytes": 4923,
+      "sha256": "a6370d213395fe0d9fe7c5e55e2ecb4d2ffbbed9932acb99e21745e634d90e7c",
+      "texture": {
+        "world": "prism",
+        "kind": "normal",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-normal-low.png",
+      "bytes": 4101,
+      "sha256": "86a20700a333a89c64dc67a118ca148d764a9a6d7c7e8c57aba077f97d460f23",
+      "texture": {
+        "world": "prism",
+        "kind": "normal",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-normal-medium.ktx2",
+      "bytes": 9526,
+      "sha256": "1e5243ac68d3e7bef7128e2c01f67809d0544111599629c394b32b371d18d44e",
+      "texture": {
+        "world": "prism",
+        "kind": "normal",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-normal-medium.png",
+      "bytes": 8199,
+      "sha256": "a95e3d167c3bf8bd4859c116a09f89b3edcb84e5ae848f82b14eba9fb1d857a1",
+      "texture": {
+        "world": "prism",
+        "kind": "normal",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-orm-high.ktx2",
+      "bytes": 18304,
+      "sha256": "262042d6644a1ebb6fcfd4f3234a4b2a7f374619a94e6c61c161a78cc2e954a6",
+      "texture": {
+        "world": "prism",
+        "kind": "orm",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-orm-high.png",
+      "bytes": 14862,
+      "sha256": "52726068dfb954d21594699046fdcc9f4b0442ca69086a288e1bb98cdd1ecac7",
+      "texture": {
+        "world": "prism",
+        "kind": "orm",
+        "lod": "high",
+        "width": 1024,
+        "height": 1024,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-orm-low.ktx2",
+      "bytes": 3923,
+      "sha256": "18d260b81805edb47777f84b32a3560b1824294e6a650365db1491c6dbe82dbb",
+      "texture": {
+        "world": "prism",
+        "kind": "orm",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-orm-low.png",
+      "bytes": 2028,
+      "sha256": "366fc73cc666e7b9c6eb8a1b4f0bb3890791cc76a369ab1a7a767e4f806fd837",
+      "texture": {
+        "world": "prism",
+        "kind": "orm",
+        "lod": "low",
+        "width": 256,
+        "height": 256,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-orm-medium.ktx2",
+      "bytes": 8719,
+      "sha256": "3e18c5716977d9a2acdbb8646ddeed3cba16c41e5bdd9fe6a5e2bc594ade1b8a",
+      "texture": {
+        "world": "prism",
+        "kind": "orm",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "ktx2"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-orm-medium.png",
+      "bytes": 5375,
+      "sha256": "cd70f757b7a339d82040c601ff976ec505bbf960326119f52b9de738d30e8869",
+      "texture": {
+        "world": "prism",
+        "kind": "orm",
+        "lod": "medium",
+        "width": 512,
+        "height": 512,
+        "encoding": "png"
+      }
+    },
+    {
+      "path": "worlds/prism/wall-premium-base-v1-high.ktx2",
+      "bytes": 192080,
+      "sha256": "2e14160f922c2c37f628301ca6de8561928518723294c3dcec5f862a4dd0afbe"
+    },
+    {
+      "path": "worlds/prism/wall-premium-base-v1-high.png",
+      "bytes": 1515604,
+      "sha256": "f39d20dc1680b107d87dc2ac9ebc54e77f7c3421dba3d1b87f2bf7d9b6d51fb2"
+    },
+    {
+      "path": "worlds/prism/wall-premium-base-v1-low.ktx2",
+      "bytes": 21266,
+      "sha256": "b16fcc754a567b368b67bcec370582b3032ef4e6f0f6e521c7bd2179289c53f8"
+    },
+    {
+      "path": "worlds/prism/wall-premium-base-v1-low.png",
+      "bytes": 111677,
+      "sha256": "27d96f25036cc18989b3680d9ae15d31ecef3f697b866f056ac0e250aa688470"
+    },
+    {
+      "path": "worlds/prism/wall-premium-base-v1-medium.ktx2",
+      "bytes": 67960,
+      "sha256": "7ab8ea86985533a381ce4499be09fdb9e71adbf495acca2bd03f9ad4c4ccda3c"
+    },
+    {
+      "path": "worlds/prism/wall-premium-base-v1-medium.png",
+      "bytes": 400110,
+      "sha256": "c0bfb3f1be295fc8d2ab41c98ed0b6dca97999538baa24f988988bd80cb88bb8"
+    }
+  ]
+}

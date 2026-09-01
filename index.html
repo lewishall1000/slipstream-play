@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#05050a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="Race through the Slipstream.">
+<link rel="icon" href="./icons/icon-192.png">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<title>Slipstream</title>
+<script>
+  window.addEventListener('load', () => {
+    if (!('serviceWorker' in navigator)) return;
+    const expoPreview = /^\/game(?:[-/])/.test(location.pathname);
+    if (expoPreview) {
+      navigator.serviceWorker.getRegistrations()
+        .then((registrations) => Promise.all(registrations.map((registration) => registration.unregister())))
+        .catch(() => {});
+      return;
+    }
+    navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => {});
+  });
+</script>
+  <script type="module" crossorigin src="./assets/main-CmpyIjOP.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/three-B1vdYkOs.js">
+  <link rel="stylesheet" crossorigin href="./assets/main-DCADwoJ9.css">
+<link rel="manifest" href="./manifest.webmanifest"></head>
+<body>
+<canvas id="gameplayBackdrop" class="gameplay-backdrop" aria-hidden="true"></canvas>
+<canvas id="gl" role="img"
+  aria-label="Three-dimensional flight course. Steer the ship through cyan-edged safe openings; coral X marks blocked gate sections. The surrounding heads-up display reports the current objective, progress, score, distance, Flow, and recovery state.">Slipstream flight course. Follow the heads-up display and use the labelled flight controls to steer through safe openings.</canvas>
+
+<div id="hud">
+  <div id="screenFlash" class="screen-flash" aria-hidden="true"></div>
+  <div id="wormholeVeil" class="wormhole-veil" aria-hidden="true"><i></i><i></i><b></b></div>
+  <section id="galaxyArrival" class="galaxy-arrival" aria-live="polite" aria-hidden="true">
+    <div class="galaxy-arrival-lens" aria-hidden="true"><i></i><i></i><b></b></div>
+    <div class="galaxy-arrival-copy">
+      <span id="galaxyArrivalIndex">GALAXY 02</span>
+      <strong id="galaxyArrivalName">NACRE REACH</strong>
+      <small id="galaxyArrivalRegion">PEARL GIANT SYSTEM</small>
+      <em id="galaxyArrivalLandmark">OPALESCENT GIANT · SHATTERED RINGS</em>
+    </div>
+    <div class="galaxy-arrival-rule" aria-hidden="true"><i></i><b></b></div>
+  </section>
+  <div id="launchSequence" class="launch-sequence" aria-hidden="true">
+    <div class="launch-grid" aria-hidden="true"></div>
+    <div class="launch-vanish" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="launch-reticle" aria-hidden="true">
+      <i></i><i></i><i></i>
+      <span>VECTOR LOCK</span>
+      <b>LAUNCH</b>
+    </div>
+    <div class="launch-countdown" aria-label="Launch countdown">
+      <b>3</b><b>2</b><b>1</b>
+    </div>
+    <div class="launch-copy">
+      <span id="launchSector">ENDLESS PROTOCOL</span>
+      <strong id="launchTitle">SLIPSTREAM</strong>
+      <p id="launchObjective">Survive the tube</p>
+      <div class="launch-charge"><i></i><b>ENGINE CHARGE</b></div>
+    </div>
+    <button class="launch-skip" type="button" data-action="skip-launch">SKIP TO CONTROL</button>
+  </div>
+  <div class="top-actions">
+    <button class="icon-action" type="button" data-action="pause" aria-label="Pause game"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#pause"></use></svg></button>
+    <button class="icon-action" type="button" data-action="settings" aria-label="Open settings"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#settings"></use></svg></button>
+  </div>
+
+  <div class="run-objective" aria-live="polite">
+    <div><span id="sectorLabel">SECTOR 01</span><b id="objectiveText">0%</b></div>
+    <div class="objective-track"><i id="objectiveFill"></i></div>
+  </div>
+
+  <div id="flowHud" class="flow-hud" data-tier="0" aria-label="Flow reactor">
+    <div class="flow-read"><span>FLOW <b id="flowValue">0</b></span><strong id="flowMultiplier">×1</strong></div>
+    <div class="flow-track"><i id="flowFill"></i><em></em><em></em><em></em></div>
+    <small id="flowTierLabel">COLD · BOOST AT 35</small>
+  </div>
+
+  <div id="runChallenge" class="run-challenge" aria-live="polite">
+    <div><span id="challengeLabel">FOLLOW GUIDES</span><b id="challengeValue">0/14</b></div>
+    <div id="challengePips" class="challenge-pips"><i></i><i></i><i></i></div>
+  </div>
+
+  <div id="powerRack" class="power-rack" aria-label="Active powers"></div>
+
+  <div class="corner tl">
+    <div class="label">SCORE</div>
+    <div id="score" class="big">0</div>
+    <div class="guide-read"><span class="guide-mark" aria-label="Guide chain"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#guide"></use></svg></span><b id="guides">0</b> GUIDES</div>
+    <div class="credit-read"><span class="run-credit-mark" aria-label="Recovered Credits"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#credit-cache"></use></svg></span><b id="runCredits">0</b> CR</div>
+    <div id="lives" class="lives"></div>
+  </div>
+
+  <div class="corner tr">
+    <div class="label">DISTANCE</div>
+    <div id="dist" class="big">0.00 km</div>
+    <div id="bomb" class="bomb">OPEN LINE</div>
+  </div>
+
+  <div class="corner bl velocity-console" data-state="cruise" style="--velocity: 0">
+    <span class="hud-ship-badge" aria-hidden="true"><svg class="ui-icon"><use href="./ui/icons/slipstream-icons.svg#ships"></use></svg></span>
+    <div class="velocity-heading">
+      <span>VELOCITY // LIVE</span>
+      <b id="velocityMode">CRUISE</b>
+    </div>
+    <div class="velocity-core">
+      <div class="velocity-readout">
+        <strong id="speedText">0</strong>
+        <small>KM/H</small>
+      </div>
+      <div class="velocity-instrument">
+        <div class="gauge velocity-gauge">
+          <div id="speedFill" class="fill speed"></div>
+          <i class="velocity-shock" aria-hidden="true"></i>
+        </div>
+        <div class="velocity-scale" aria-hidden="true">
+          <span>0</span><span>PURSUIT</span><span>SONIC</span><span>MAX</span>
+        </div>
+      </div>
+    </div>
+    <div class="velocity-spine" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+
+  <div class="corner br weapon-hud">
+    <div class="label">CANNON HEAT</div>
+    <div class="gauge"><div id="heatFill" class="fill heat"></div></div>
+    <div class="readout dim">C to fire</div>
+  </div>
+
+  <div id="toasts" aria-live="polite" aria-atomic="false"></div>
+
+  <div id="hint" class="coach-strip" aria-live="polite" aria-atomic="true"></div>
+
+  <div id="mobileControls" class="mobile-controls" role="group" aria-label="Flight controls">
+    <div class="steer-controls">
+      <button class="steering-thruster steering-thruster-left" type="button" data-control="arrowleft" aria-label="Steer left">
+        <span class="thruster-body" aria-hidden="true">
+          <i class="thruster-energy"></i>
+          <svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#steer-left"></use></svg>
+        </span>
+        <small>STEER LEFT</small>
+      </button>
+      <button class="steering-thruster steering-thruster-right" type="button" data-control="arrowright" aria-label="Steer right">
+        <span class="thruster-body" aria-hidden="true">
+          <i class="thruster-energy"></i>
+          <svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#steer-right"></use></svg>
+        </span>
+        <small>STEER RIGHT</small>
+      </button>
+    </div>
+    <div class="action-controls">
+      <button class="action-boost" type="button" data-control="boost" aria-label="Sonic boost"><small>BOOST</small><span><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#boost"></use></svg></span></button>
+      <button class="action-jump" type="button" data-control="x" aria-label="Jump"><small>JUMP</small><span><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#jump"></use></svg></span></button>
+    </div>
+  </div>
+
+  <div id="levelComplete" class="level-complete" aria-hidden="true">
+    <div class="completion-scan"></div>
+    <div class="completion-iris" aria-hidden="true">
+      <i></i><i></i><i></i>
+      <b id="completionSector">01</b>
+    </div>
+    <div class="completion-copy">
+      <span>LINE HELD</span>
+      <strong id="completionTitle">IGNITION GATE</strong>
+      <div id="completionStars" class="completion-stars"></div>
+    </div>
+  </div>
+
+  <div id="overlay" role="dialog" aria-modal="true" aria-labelledby="overlayTitle"
+    aria-hidden="true" inert>
+    <div class="panel">
+      <div class="deck-gantry" aria-hidden="true">
+        <span></span><i></i><b></b><i></i><span></span>
+      </div>
+      <div class="deck-topline">
+        <span id="overlayEyebrow">PILOT CONTROL // HOME</span>
+        <span class="deck-topline-actions">
+          <span class="deck-status"><i></i> LINK STABLE</span>
+          <button class="deck-settings" type="button" data-action="settings" aria-label="Open settings"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#settings"></use></svg></button>
+        </span>
+      </div>
+      <h1 id="overlayTitle">SLIPSTREAM</h1>
+      <div id="overlayBody"></div>
+      <div id="finalScore" class="final"></div>
+      <button id="overlayAction" class="primary-action" type="button" hidden></button>
+      <div class="deck-foot" aria-hidden="true"><span>SS // FLIGHT OS</span><i></i><span>RECOVERY LINK 07</span></div>
+    </div>
+    <div id="metaAnnouncements" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+  </div>
+
+  <section id="boxReveal" class="box-reveal" hidden role="dialog" aria-modal="true" aria-hidden="true"
+    aria-labelledby="boxRevealTitle" aria-describedby="boxStatus">
+    <div class="salvage-grid" aria-hidden="true"></div>
+    <div class="salvage-stage">
+      <header class="salvage-head">
+        <span id="boxRevealTitle">FLIGHT RECOVERY</span>
+        <b id="boxRarity">COMMON SALVAGE</b>
+      </header>
+
+      <div id="boxCrate" class="salvage-vault" aria-label="Recovered salvage capsule">
+        <canvas id="salvageCanvas" class="salvage-canvas postrun-salvage-canvas" aria-hidden="true"></canvas>
+        <span class="vault-credit-mark credit-mark" aria-hidden="true"><svg class="ui-icon"><use href="./ui/icons/slipstream-icons.svg#credit-cache"></use></svg><i></i></span>
+        <div class="vault-orbit"><i></i><i></i><i></i></div>
+        <div class="vault-shell">
+          <i class="vault-plate plate-left"></i>
+          <i class="vault-plate plate-right"></i>
+          <i class="vault-plate plate-top"></i>
+          <span class="vault-seam"></span>
+          <b class="vault-core"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#credits"></use></svg></b>
+        </div>
+        <div class="vault-sparks"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+
+      <div id="boxReward" class="salvage-reward" hidden aria-live="polite">
+        <span id="boxRewardRarity">COMMON SALVAGE</span>
+        <div class="salvage-credit-line"><span class="credit-mark" aria-hidden="true"><svg class="ui-icon"><use href="./ui/icons/slipstream-icons.svg#credit-cache"></use></svg><i></i></span><strong id="boxRewardLabel">250 CREDITS</strong></div>
+      </div>
+
+      <p id="boxStatus" class="salvage-status" role="status">Recovered reward is already secured</p>
+      <div class="salvage-actions">
+        <button id="boxDouble" class="salvage-double" type="button" data-action="double-prize" hidden>WATCH AD · 2×</button>
+        <button id="boxAction" class="salvage-primary" type="button">OPEN SALVAGE</button>
+      </div>
+      <button id="boxSkip" class="salvage-skip" type="button" hidden>SKIP REVEAL</button>
+    </div>
+  </section>
+
+  <section id="settings" class="settings" role="dialog" aria-modal="true"
+    aria-hidden="true" aria-labelledby="settingsTitle" data-settings-tab="graphics" inert>
+    <div class="settings-card">
+      <img class="settings-concept-background"
+        src="./art-authored/ui/settings-concept-background-v2.webp?v=settings-concept-v2"
+        alt="" aria-hidden="true" decoding="async">
+      <h2 id="settingsTitle" class="sr-only">Settings</h2>
+      <button type="button" class="settings-concept-back" data-action="close-settings" aria-label="Close settings">
+        <svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#back"></use></svg>
+      </button>
+
+      <nav class="settings-concept-tabs" aria-label="Settings categories">
+        <button type="button" data-action="settings-tab" data-settings-tab="gameplay"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#guide"></use></svg><span>Gameplay</span></button>
+        <button type="button" data-action="settings-tab" data-settings-tab="controls"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#haptics"></use></svg><span>Controls</span></button>
+        <button type="button" data-action="settings-tab" data-settings-tab="audio"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#audio-on"></use></svg><span>Audio</span></button>
+        <button type="button" data-action="settings-tab" data-settings-tab="graphics"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#quality-high"></use></svg><span>Graphics</span></button>
+        <button type="button" data-action="settings-tab" data-settings-tab="accessibility"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#reduced-motion"></use></svg><span>Accessibility</span></button>
+        <button type="button" data-action="settings-tab" data-settings-tab="account"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#rank"></use></svg><span>Account</span></button>
+      </nav>
+
+      <section class="settings-concept-pane settings-graphics-pane" data-settings-pane="graphics" aria-label="Graphics settings">
+        <div class="settings-quality-pills" role="group" aria-label="Graphics quality">
+          <button type="button" data-action="quality" data-quality="auto" aria-pressed="true"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#quality-auto"></use></svg><span>Auto</span></button>
+          <button type="button" data-action="quality" data-quality="performance" aria-pressed="false"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#quality-performance"></use></svg><span>Performance</span></button>
+          <button type="button" data-action="quality" data-quality="high" aria-pressed="false"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#quality-high"></use></svg><span>HD</span></button>
+          <button type="button" data-action="quality" data-quality="medium" aria-pressed="false"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#quality-medium"></use></svg><span>Balanced</span></button>
+          <button type="button" data-action="quality" data-quality="low" aria-pressed="false"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#quality-low"></use></svg><span>Battery saver</span></button>
+        </div>
+        <div class="settings-interface-pills" role="group" aria-label="Interface motion">
+          <button class="settings-system-preference" type="button" data-action="motion" data-motion="system" aria-pressed="false" hidden>System</button>
+          <button type="button" data-action="motion" data-motion="off" aria-pressed="true">Full</button>
+          <button type="button" data-action="motion" data-motion="on" aria-pressed="false">Reduced</button>
+        </div>
+        <button id="colorAssistToggle" class="settings-color-assist" type="button" data-action="color-assist" aria-pressed="true">
+          <span>Color assist</span><i aria-hidden="true"></i>
+        </button>
+      </section>
+
+      <aside class="settings-performance-live" aria-label="Current graphics target">
+        <span>Performance target</span>
+        <strong><b id="settingsFpsTarget">60</b> FPS target</strong>
+        <div class="settings-fps-scale" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><em></em></div>
+        <hr>
+        <span>Battery impact</span>
+        <strong class="settings-battery-read"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#battery"></use></svg><b id="settingsBatteryImpact">Low</b></strong>
+        <p id="settingsBatteryCopy">Optimized for longer playtime.</p>
+        <button class="settings-haptics-quick" type="button" data-action="haptics" aria-pressed="true">
+          <svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#haptics"></use></svg>
+          <span>Haptics</span><i aria-hidden="true"></i>
+        </button>
+        <small>ⓘ &nbsp; Higher quality increases visual fidelity but may affect performance and battery life.</small>
+      </aside>
+
+      <section class="settings-concept-pane settings-secondary-pane" data-settings-pane="gameplay">
+        <span class="settings-pane-kicker">Gameplay systems</span><h3>Gameplay</h3>
+        <button id="hintsToggle" class="setting-row" type="button" data-action="hints" aria-pressed="true">Flight coaching on</button>
+      </section>
+      <section class="settings-concept-pane settings-secondary-pane" data-settings-pane="controls">
+        <span class="settings-pane-kicker">Control feedback</span><h3>Controls</h3>
+        <button id="hapticsToggle" class="setting-row" type="button" data-action="haptics" aria-pressed="true">Haptics on</button>
+        <button id="batteryToggle" class="setting-row" type="button" data-action="battery-saver" aria-pressed="false">Battery saver</button>
+      </section>
+      <section class="settings-concept-pane settings-secondary-pane" data-settings-pane="audio">
+        <span class="settings-pane-kicker">Flight mix</span><h3>Audio</h3>
+        <button id="soundToggle" class="setting-row" type="button" data-action="sound" aria-pressed="true">Sound on</button>
+      </section>
+      <section class="settings-concept-pane settings-secondary-pane" data-settings-pane="accessibility">
+        <span class="settings-pane-kicker">Pilot assistance</span><h3>Accessibility</h3>
+        <p>Motion reduction and color assistance remain available from the Graphics console.</p>
+        <button class="setting-row" type="button" data-action="settings-tab" data-settings-tab="graphics">Open graphics assistance</button>
+      </section>
+      <section class="settings-concept-pane settings-secondary-pane settings-account-pane" data-settings-pane="account">
+        <span class="settings-pane-kicker">Local pilot record</span><h3>Account</h3>
+        <details class="privacy-summary">
+          <summary>Privacy policy</summary>
+          <div>
+            <strong>Your progress stays on your device.</strong>
+            <p>Slipstream stores progress and settings locally. It may create a random install ID and send gameplay, performance, and feature-experiment events when a secure developer analytics endpoint is configured.</p>
+            <p>There are no accounts, advertising IDs, location or contact collection, or cross-app tracking. Deleting the app clears its local progress and analytics queue. Effective August 27, 2026.</p>
+          </div>
+        </details>
+        <details class="privacy-summary">
+          <summary>Credits &amp; licenses</summary>
+          <div>
+            <p>“Chase” by Adiutorium — CC0. Sonic boom recording by AirMan — <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>, unmodified. Sci-Fi Sounds, countdown, and pickup cues by Kenney; Mechanical Explosion by Spring Spring; hull impact and structural rattle by Brian MacIntosh; salvage sources by TAD and yd — CC0. Model created with Meshy — <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>, optimized and converted for Slipstream.</p>
+          </div>
+        </details>
+      </section>
+
+      <div class="settings-concept-actions">
+        <button type="button" data-action="restore-settings"><svg class="ui-icon" aria-hidden="true"><use href="./ui/icons/slipstream-icons.svg#retry"></use></svg><span>Restore defaults</span></button>
+        <button type="button" class="settings-apply" data-action="apply-settings">Apply</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="rotate-device" role="dialog" aria-modal="true" aria-labelledby="rotateTitle"
+    aria-hidden="true" inert>
+    <div class="orientation-interlock">
+      <span class="orientation-eyebrow">FLIGHT DECK // ORIENTATION INTERLOCK</span>
+      <div class="orientation-target" aria-hidden="true">
+        <i></i><i></i><i></i>
+        <div class="phone-glyph"><b></b></div>
+      </div>
+      <h2 id="rotateTitle">Rotate to landscape</h2>
+      <p>Slipstream is built for a wide flight deck. Turn your device sideways to enter the tube.</p>
+      <div class="orientation-status"><i></i><span>WAITING FOR LANDSCAPE</span></div>
+    </div>
+  </section>
+</div>
+
+</body>
+</html>
